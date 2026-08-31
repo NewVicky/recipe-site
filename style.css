@@ -1,0 +1,155 @@
+/* ---------------------------------------------------------
+   Variables: named values reused below. Change them in one
+   place and the whole site follows.
+   --------------------------------------------------------- */
+:root {
+  --ink: #2b2724;
+  --ink-soft: #6f665f;
+  --paper: #fdfaf6;
+  --card: #ffffff;
+  --line: #e7ded4;
+  --accent: #b5562f;
+}
+
+/* The whole page */
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+  margin: 0;
+  padding: 0 1.25rem 4rem;
+}
+
+/* ---------------------------------------------------------
+   Header
+   --------------------------------------------------------- */
+header {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 3.5rem 0 2rem;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+}
+
+header h1 {
+  font-size: 2.75rem;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 0.5rem 0 0;
+}
+
+/* ---------------------------------------------------------
+   Recipes
+   --------------------------------------------------------- */
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.recipe {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 2rem 2.25rem;
+  margin-top: 2.5rem;
+}
+
+.recipe h2 {
+  color: var(--accent);
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.meta {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0.35rem 0 1.5rem;
+}
+
+.recipe h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.4rem;
+  margin: 1.75rem 0 0.75rem;
+}
+
+.recipe ul,
+.recipe ol {
+  padding-left: 1.35rem;
+  margin: 0;
+}
+
+.recipe li {
+  margin-bottom: 0.5rem;
+}
+
+/* ---------------------------------------------------------
+   Footer
+   --------------------------------------------------------- */
+footer {
+  max-width: 46rem;
+  margin: 3.5rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+/* ---------------------------------------------------------
+   Recipe list cards
+   --------------------------------------------------------- */
+.card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1.5rem 1.75rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+.card h2 {
+  color: var(--accent);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card .blurb {
+  margin: 0;
+}
+
+/* ---------------------------------------------------------
+   Links and states
+   --------------------------------------------------------- */
+header h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.back {
+  margin: 2rem 0 0;
+}
+
+.back a,
+.error a {
+  color: var(--accent);
+}
+
+.error {
+  color: var(--accent);
+}
