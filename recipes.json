@@ -2,6 +2,7 @@
   {
     "slug": "garlic-butter-pasta",
     "title": "Garlic Butter Pasta",
+    "category": "Dinner",
     "time": "15 minutes",
     "serves": "Serves 2",
     "blurb": "Five ingredients, one pan, and better than it has any right to be.",
@@ -22,6 +23,7 @@
   {
     "slug": "overnight-oats",
     "title": "Overnight Oats",
+    "category": "Breakfast",
     "time": "5 minutes, plus overnight",
     "serves": "Serves 1",
     "blurb": "Tomorrow's breakfast, sorted tonight.",

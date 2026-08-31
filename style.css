@@ -153,3 +153,47 @@ header h1 a {
 .error {
   color: var(--accent);
 }
+
+/* ---------------------------------------------------------
+   Category tabs
+   --------------------------------------------------------- */
+#tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: system-ui, sans-serif;
+}
+
+.tab:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+
+.tab-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.tab-count {
+  font-size: 0.75rem;
+  opacity: 0.65;
+}
+
+.meta a {
+  color: inherit;
+}
