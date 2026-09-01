@@ -39,5 +39,122 @@
       "Cover and leave in the fridge overnight.",
       "In the morning, loosen with a little more milk and add your toppings."
     ]
+  },
+  {
+    "slug": "meatloaf",
+    "title": "Meatloaf",
+    "category": "Dinner",
+    "from": "Family",
+    "time": "1 hour in the oven",
+    "ingredients": [
+      "1 lb ground beef (the family version uses 3 lbs — see notes)",
+      "Onion, chopped",
+      "Celery, chopped",
+      "Garlic powder",
+      "Breadcrumbs",
+      "2 eggs, beaten first",
+      "Ketchup",
+      "Mustard",
+      "Salt",
+      "Pepper"
+    ],
+    "method": [
+      "Heat the oven to 350°F (175°C).",
+      "Beat the eggs before anything else goes in.",
+      "Chop the onion and celery. They go in raw.",
+      "Mix everything together — the ketchup and mustard go into the mix.",
+      "Shape into a loaf, either in a loaf pan or free-form on a tray.",
+      "Bake for 1 hour."
+    ],
+    "notes": [
+      "The family version: 3 lbs of beef, and ketchup spread on top before it goes in the oven. This version is 1 lb and no ketchup on top.",
+      "Loaf pan or free-form both work. Free-form gives you more crust; a pan means it sits in its own fat.",
+      "No quantities were recorded for the onion, celery, garlic or breadcrumbs — go by feel.",
+      "CHECK: the 1-hour bake probably belongs to one of the two sizes rather than both. A 1 lb loaf is usually done well before an hour, and 3 lbs takes longer. Worth checking the middle hits 160°F the next time either gets made, and writing the real time in here.",
+      "OPEN: does the 2 eggs go with the 1 lb version or the 3 lb one?"
+    ]
+  },
+  {
+    "slug": "roasted-potatoes",
+    "title": "Roasted Potatoes",
+    "category": "Sides",
+    "from": "Family",
+    "time": "20 minutes at 350°F (see notes)",
+    "ingredients": [
+      "Potatoes — peeled, or red potatoes with the skins left on",
+      "Olive oil",
+      "Garlic powder",
+      "Salt",
+      "Pepper"
+    ],
+    "method": [
+      "Cut the potatoes into pieces.",
+      "Toss with olive oil, garlic powder, salt and pepper.",
+      "Roast at 350°F (175°C) for 20 minutes."
+    ],
+    "notes": [
+      "Temperature confirmed at 350°F by the family member who makes these. It wasn't written on the original recipe.",
+      "CHECK: at 350°F, potato chunks usually want 45–60 minutes rather than 20. Something reconciles the two — most likely the pieces are cut smaller or thinner than a standard chunk. Worth asking how big they cut them.",
+      "Until that's settled, treat the 20 minutes as a first check rather than a finish time — go by a fork going in easily and the edges browning."
+    ]
+  },
+  {
+    "slug": "american-spaghetti-and-meatballs",
+    "title": "American Spaghetti and Meatballs",
+    "category": "Dinner",
+    "from": "Family",
+    "ingredients": [
+      "Spaghetti — not on the original list, quantity to confirm",
+      "Ground beef",
+      "1 egg — the only binder, no breadcrumbs",
+      "Celery salt, or celery seed",
+      "Salt",
+      "Pepper",
+      "Tomato soup — made up as normal soup (if condensed, add water per the can)",
+      "American cheese, or Velveeta"
+    ],
+    "method": [
+      "Make up the tomato soup as normal soup — if it's condensed, add the water the can calls for. Melt the American cheese or Velveeta into it.",
+      "Mix the ground beef with the egg, salt, pepper and celery salt or celery seed. No breadcrumbs.",
+      "Roll into meatballs.",
+      "Drop the raw meatballs into the soup and cheese mixture and cook them in it.",
+      "Boil the spaghetti.",
+      "Serve the meatballs and sauce over the spaghetti."
+    ],
+    "notes": [
+      "This is the tomato-soup-and-melted-cheese style, not an Italian red sauce. That's the dish, not a substitution.",
+      "No breadcrumbs — deliberate, not an omission. The egg is the only binder.",
+      "The meatballs go in raw and cook in the sauce, so the sauce takes on flavour from the beef. They're never browned.",
+      "General technique, not from the recipe: raw meatballs are fragile until they've set, so leave them alone for the first few minutes rather than stirring.",
+      "No quantities were recorded beyond the one egg."
+    ]
+  },
+  {
+    "slug": "sour-cucumbers",
+    "title": "Sour Cucumbers",
+    "category": "Sides",
+    "from": "Family",
+    "time": "Half an hour soaking, then a few minutes",
+    "ingredients": [
+      "Cucumbers",
+      "Onions",
+      "Sour cream",
+      "Salt",
+      "Pepper"
+    ],
+    "method": [
+      "Slice the cucumbers.",
+      "Soak the slices in salt water for half an hour.",
+      "Tip into a colander and squeeze really tight to get the water out.",
+      "Slice the onions.",
+      "Mix the cucumbers and onions with sour cream, salt and pepper."
+    ],
+    "notes": [
+      "No vinegar — checked, not an omission. The sour comes from the sour cream.",
+      "The soak and the hard squeeze are the whole trick — they pull the water out of the cucumbers so the sour cream stays thick instead of turning into a puddle. Don't shortcut either.",
+      "Squeeze harder than feels reasonable. The cucumbers will look wrung out and that's correct.",
+      "How the onions are cut wasn't recorded. Thin is the safer default — raw onion goes strong in sour cream if the pieces are big. Write down what you end up liking.",
+      "No quantities were recorded."
+    ]
   }
 ]

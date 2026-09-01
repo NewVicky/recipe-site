@@ -20,15 +20,23 @@ fetch("recipes.json")
       `<p class="error">Couldn't load recipes: ${err.message}</p>`;
   });
 
+/* Only the parts that exist, joined with dots. Keeps a recipe with no
+   known time or yield from rendering "undefined". */
+function metaLine(parts) {
+  return parts.filter(Boolean).join(" &middot; ");
+}
+
+/* notes / from may be a single string or a list of them. */
+function toList(value) {
+  if (!value) return [];
+  return Array.isArray(value) ? value : [value];
+}
+
 /* ---------------------------------------------------------
    List page: tabs + filtered cards
    --------------------------------------------------------- */
 function renderList(recipes) {
-  // Which tab is selected? Comes from the URL, so tabs are bookmarkable
-  // and the back button works.
   const active = new URLSearchParams(location.search).get("c");
-
-  // Tabs are DERIVED from the recipes — never maintained by hand.
   const categories = [...new Set(recipes.map(r => r.category || UNCATEGORISED))].sort();
 
   const shown = active
@@ -45,8 +53,8 @@ function renderList(recipes) {
   listBox.innerHTML = shown.map(r => `
     <a class="card" href="recipe.html?r=${r.slug}">
       <h2>${r.title}</h2>
-      <p class="meta">${r.category || UNCATEGORISED} &middot; ${r.time} &middot; ${r.serves}</p>
-      <p class="blurb">${r.blurb}</p>
+      <p class="meta">${metaLine([r.category || UNCATEGORISED, r.time, r.serves])}</p>
+      ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
     </a>
   `).join("");
 }
@@ -54,8 +62,6 @@ function renderList(recipes) {
 function renderTabs(categories, active, recipes) {
   const tabBox = document.getElementById("tabs");
   if (!tabBox) return;
-
-  // Only worth showing tabs once there's more than one category.
   if (categories.length < 2) return;
 
   const count = cat => recipes.filter(r => (r.category || UNCATEGORISED) === cat).length;
@@ -84,20 +90,26 @@ function renderOne(recipes) {
   document.title = `${r.title} — My Recipes`;
 
   const cat = r.category || UNCATEGORISED;
+  const catLink = `<a href="index.html?c=${encodeURIComponent(cat)}">${cat}</a>`;
+  const notes = toList(r.notes);
 
   oneBox.innerHTML = `
     <article class="recipe">
       <h2>${r.title}</h2>
-      <p class="meta">
-        <a href="index.html?c=${encodeURIComponent(cat)}">${cat}</a>
-        &middot; ${r.time} &middot; ${r.serves}
-      </p>
+      ${r.from ? `<p class="from">From ${r.from}</p>` : ""}
+      <p class="meta">${metaLine([catLink, r.time, r.serves])}</p>
+      ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
 
       <h3>Ingredients</h3>
       <ul>${r.ingredients.map(i => `<li>${i}</li>`).join("")}</ul>
 
       <h3>Method</h3>
       <ol>${r.method.map(s => `<li>${s}</li>`).join("")}</ol>
+
+      ${notes.length ? `
+        <h3>Notes</h3>
+        <ul class="notes">${notes.map(n => `<li>${n}</li>`).join("")}</ul>
+      ` : ""}
 
       <p class="back"><a href="index.html">&larr; All recipes</a></p>
     </article>

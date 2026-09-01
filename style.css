@@ -197,3 +197,21 @@ header h1 a {
 .meta a {
   color: inherit;
 }
+
+/* ---------------------------------------------------------
+   Provenance and notes
+   --------------------------------------------------------- */
+.from {
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0.4rem 0 0;
+}
+
+.notes {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.blurb {
+  margin: 0.75rem 0 0;
+}
