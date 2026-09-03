@@ -359,6 +359,10 @@
     ],
     "notes": [
       {
+        "text": "The pepper and onion go in only halved and the cilantro isn't cut, and step 7 takes all the vegetables back out before serving. They're there to flavor the pot, not to be eaten in it.",
+        "src": "recipe"
+      },
+      {
         "text": "The habanero goes in whole so it's easy to remove later — that's how the heat is controlled.",
         "src": "recipe"
       },
@@ -371,16 +375,8 @@
         "src": "recipe"
       },
       {
-        "text": "All the vegetables come out before serving.",
-        "src": "recipe"
-      },
-      {
         "text": "¼ cup of <a href=\"recipe.html?r=dominican-sazon\">Dominican Sazón</a> stands in for the 8 garlic cloves if you have it.",
         "src": "recipe"
-      },
-      {
-        "text": "The pepper and onion are only halved and the cilantro isn't cut because they all come back out at the end — they flavor the pot rather than being eaten in it. The recipe doesn't say the two facts are connected, but they clearly are.",
-        "src": "claude"
       }
     ]
   },

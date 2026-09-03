@@ -51,21 +51,23 @@ function toList(value) {
    --------------------------------------------------------- */
 function renderList(recipes) {
   const active = new URLSearchParams(location.search).get("c");
-  const categories = [...new Set(recipes.map(r => r.category || UNCATEGORIZED))].sort(byCategoryOrder);
 
   const shown = active
     ? recipes.filter(r => (r.category || UNCATEGORIZED) === active)
     : recipes;
 
-  renderTabs(categories, active, recipes);
+  renderTabs(recipes, active);
 
   if (shown.length === 0) {
     listBox.innerHTML = `<p class="error">Nothing in "${active}" yet.</p>`;
     return;
   }
 
+  // Carry the current tab through, so the recipe page can send you back to it.
+  const from = active ? `&c=${encodeURIComponent(active)}` : "";
+
   listBox.innerHTML = shown.map(r => `
-    <a class="card" href="recipe.html?r=${r.slug}">
+    <a class="card" href="recipe.html?r=${r.slug}${from}">
       <h2>${r.title}</h2>
       <p class="meta">${metaLine([r.category || UNCATEGORIZED, r.cuisine, r.time, r.serves])}</p>
       ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
@@ -73,9 +75,18 @@ function renderList(recipes) {
   `).join("");
 }
 
-function renderTabs(categories, active, recipes) {
+/* Shown on both the list and a single recipe.
+
+   markCurrent is false on a recipe page, deliberately. The filled tab means
+   "this filter is applied", which only means anything against a list — on a
+   recipe it just makes the most useful tab look already-selected and dead.
+   The recipe's category is already named in the meta line and the back
+   button, so nothing is lost by leaving every tab plainly clickable. */
+function renderTabs(recipes, active, markCurrent = true) {
   const tabBox = document.getElementById("tabs");
   if (!tabBox) return;
+
+  const categories = [...new Set(recipes.map(r => r.category || UNCATEGORIZED))].sort(byCategoryOrder);
   if (categories.length < 2) return;
 
   const count = cat => recipes.filter(r => (r.category || UNCATEGORIZED) === cat).length;
@@ -84,15 +95,17 @@ function renderTabs(categories, active, recipes) {
     `<a class="tab${isActive ? " tab-active" : ""}" href="${href}">${label} <span class="tab-count">${n}</span></a>`;
 
   tabBox.innerHTML =
-    tab("All", "index.html", !active, recipes.length) +
-    categories.map(c => tab(c, `index.html?c=${encodeURIComponent(c)}`, c === active, count(c))).join("");
+    tab("All", "index.html", markCurrent && !active, recipes.length) +
+    categories.map(c => tab(c, `index.html?c=${encodeURIComponent(c)}`,
+                            markCurrent && c === active, count(c))).join("");
 }
 
 /* ---------------------------------------------------------
    Single recipe page
    --------------------------------------------------------- */
 function renderOne(recipes) {
-  const slug = new URLSearchParams(location.search).get("r");
+  const params = new URLSearchParams(location.search);
+  const slug = params.get("r");
   const r = recipes.find(x => x.slug === slug);
 
   if (!r) {
@@ -104,6 +117,15 @@ function renderOne(recipes) {
   document.title = `${r.title} — My Recipes`;
 
   const cat = r.category || UNCATEGORIZED;
+  renderTabs(recipes, null, false);
+
+  // Where to send you back to. Only trust the tab if it's a real category.
+  const known = new Set(recipes.map(x => x.category || UNCATEGORIZED));
+  const from = params.get("c");
+  const back = from && known.has(from)
+    ? { href: `index.html?c=${encodeURIComponent(from)}`, label: `Back to ${from}` }
+    : { href: "index.html", label: "All recipes" };
+
   const catLink = `<a href="index.html?c=${encodeURIComponent(cat)}">${cat}</a>`;
   // Notes carry where their information came from: "recipe" (in the source),
   // "you" (told to me later), "claude" (my general knowledge, in no source).
@@ -160,7 +182,7 @@ function renderOne(recipes) {
         </div>
       ` : ""}
 
-      <p class="back"><a href="index.html">&larr; All recipes</a></p>
+      <p class="back"><a href="${back.href}"><span class="arrow">&larr;</span> ${back.label}</a></p>
     </article>
   `;
 }

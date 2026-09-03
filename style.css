@@ -335,3 +335,41 @@ header h1 a {
   white-space: nowrap;
   vertical-align: 0.08em;
 }
+
+/* ---------------------------------------------------------
+   Back button — a pill, matching the tabs, with the arrow
+   sliding left on hover.
+   --------------------------------------------------------- */
+.back {
+  margin: 2.5rem 0 0;
+}
+
+.back a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  transition: border-color 0.18s ease, color 0.18s ease, background 0.18s ease;
+}
+
+.back a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--paper);
+}
+
+.back .arrow {
+  display: inline-block;
+  transition: transform 0.18s ease;
+}
+
+.back a:hover .arrow {
+  transform: translateX(-3px);
+}
