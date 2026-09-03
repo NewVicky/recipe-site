@@ -6,6 +6,20 @@ const oneBox  = document.getElementById("recipe");
 
 const UNCATEGORISED = "Other";
 
+/* Tab order. This is the one list worth keeping by hand — a meal reads in
+   an order that alphabetical can't guess. Categories not named here still
+   show up, sorted alphabetically, after these. */
+const CATEGORY_ORDER = ["Breakfast", "Dinner", "Sides", "Drinks", "Dessert", "Basics"];
+
+function byCategoryOrder(a, b) {
+  const ia = CATEGORY_ORDER.indexOf(a);
+  const ib = CATEGORY_ORDER.indexOf(b);
+  if (ia === -1 && ib === -1) return a.localeCompare(b);
+  if (ia === -1) return 1;
+  if (ib === -1) return -1;
+  return ia - ib;
+}
+
 fetch("recipes.json")
   .then(res => {
     if (!res.ok) throw new Error(`recipes.json → ${res.status}`);
@@ -37,7 +51,7 @@ function toList(value) {
    --------------------------------------------------------- */
 function renderList(recipes) {
   const active = new URLSearchParams(location.search).get("c");
-  const categories = [...new Set(recipes.map(r => r.category || UNCATEGORISED))].sort();
+  const categories = [...new Set(recipes.map(r => r.category || UNCATEGORISED))].sort(byCategoryOrder);
 
   const shown = active
     ? recipes.filter(r => (r.category || UNCATEGORISED) === active)

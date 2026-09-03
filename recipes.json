@@ -403,5 +403,35 @@
       "Full fat is specified for both the evaporated and the condensed milk.",
       "The original has photographs for two steps — what the finished caramel should look like, and how the Bain Marie is set up. Those aren't on this page yet."
     ]
+  },
+  {
+    "slug": "morir-sonando",
+    "title": "Morir Soñando",
+    "category": "Drinks",
+    "cuisine": "Dominican",
+    "from": "Dominican family",
+    "blurb": "Orange juice and evaporated milk, blended cold.",
+    "ingredients": [
+      "2 to 3 cups of orange juice",
+      "1 can of evaporated milk",
+      "⅓ cup of sugar — more or less, depending on how sweet you like it",
+      "1 to 1½ cups of ice"
+    ],
+    "method": [
+      "In a blender, mix together the orange juice, sugar and ice. Blend until nice and smooth.",
+      "With the blender still running, add the evaporated milk slowly.",
+      "Serve cold."
+    ],
+    "variations": [
+      {
+        "name": "Condensed milk instead of sugar",
+        "how": "Some people substitute the sugar for 1 can of condensed milk."
+      }
+    ],
+    "notes": [
+      "Yes, it is called Morir Soñando — dying in your dreams.",
+      "The milk going in slowly with the blender still running is the whole technique. Orange juice is acidic enough to curdle milk if the two meet all at once, and everything being cold helps too.",
+      "The sugar is to taste rather than a fixed amount."
+    ]
   }
 ]
