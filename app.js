@@ -127,9 +127,6 @@ function renderOne(recipes) {
     : { href: "index.html", label: "All recipes" };
 
   const catLink = `<a href="index.html?c=${encodeURIComponent(cat)}">${cat}</a>`;
-  // Notes carry where their information came from: "recipe" (in the source),
-  // "you" (told to me later), "claude" (my general knowledge, in no source).
-  // A plain string is treated as "recipe" so notes stay easy to add by hand.
   const notes = toList(r.notes).map(n => typeof n === "string" ? { text: n, src: "recipe" } : n);
   const trouble = toList(r.troubleshooting);
   const variations = r.variations || [];
@@ -137,52 +134,90 @@ function renderOne(recipes) {
 
   oneBox.innerHTML = `
     <article class="recipe">
-      <h2>${r.title}</h2>
-      ${r.from ? `<p class="from">From ${r.from}</p>` : ""}
-      <p class="meta">${metaLine([catLink, r.cuisine, r.time, r.serves])}</p>
-      ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
+      <div class="recipe-head">
+        <h2>${r.title}</h2>
+        ${r.from ? `<p class="from">From ${r.from}</p>` : ""}
+        <p class="meta">${metaLine([catLink, r.cuisine, r.time, r.serves])}</p>
+        ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
+      </div>
 
-      <h3>Ingredients</h3>
-      <ul>${r.ingredients.map(i => `<li>${i}</li>`).join("")}</ul>
+      <div class="recipe-body">
+        <!-- One list, two presentations: a sticky column on wide screens,
+             a slide-up sheet behind a button on narrow ones. -->
+        <section class="ingredients-col">
+          <h3>Ingredients</h3>
+          <ul>${r.ingredients.map(i => `<li>${i}</li>`).join("")}</ul>
+          <button class="sheet-close" type="button">Done</button>
+        </section>
 
-      <h3>Method</h3>
-      <ol>${r.method.map(s => `<li>${s}</li>`).join("")}</ol>
+        <div class="method-col">
+          <h3>Method</h3>
+          <ol>${r.method.map(s => `<li>${s}</li>`).join("")}</ol>
 
-      ${trouble.length ? `
-        <h3>Troubleshooting</h3>
-        <ul class="notes">${trouble.map(t => `<li>${t}</li>`).join("")}</ul>
-      ` : ""}
+          ${trouble.length ? `
+            <h3>Troubleshooting</h3>
+            <ul class="notes">${trouble.map(t => `<li>${t}</li>`).join("")}</ul>
+          ` : ""}
 
-      ${variations.length ? `
-        <h3>Variations</h3>
-        <dl class="variations">
-          ${variations.map(v => `<dt>${v.name}</dt><dd>${v.how}</dd>`).join("")}
-        </dl>
-      ` : ""}
+          ${variations.length ? `
+            <h3>Variations</h3>
+            <dl class="variations">
+              ${variations.map(v => `<dt>${v.name}</dt><dd>${v.how}</dd>`).join("")}
+            </dl>
+          ` : ""}
 
-      ${notes.length ? `
-        <details class="notes-box">
-          <summary>Notes (${notes.length})</summary>
-          <ul class="notes">${notes.map(n => `
-            <li${n.src === "claude" ? ' class="added"' : ""}>${n.text}${
-              n.src === "claude" ? ' <span class="added-tag">added by Claude</span>' : ""
-            }</li>`).join("")}</ul>
-        </details>
-      ` : ""}
+          ${notes.length ? `
+            <details class="notes-box">
+              <summary>Notes (${notes.length})</summary>
+              <ul class="notes">${notes.map(n => `
+                <li${n.src === "claude" ? ' class="added"' : ""}>${n.text}${
+                  n.src === "claude" ? ' <span class="added-tag">added by Claude</span>' : ""
+                }</li>`).join("")}</ul>
+            </details>
+          ` : ""}
 
-      ${images.length ? `
-        <h3>Pictures</h3>
-        <div class="shots">
-          ${images.map(im => `
-            <figure>
-              <img src="${im.src}" alt="${im.caption || r.title}" loading="lazy">
-              ${im.caption ? `<figcaption>${im.caption}</figcaption>` : ""}
-            </figure>
-          `).join("")}
+          ${images.length ? `
+            <h3>Pictures</h3>
+            <div class="shots">
+              ${images.map(im => `
+                <figure>
+                  <img src="${im.src}" alt="${im.caption || r.title}" loading="lazy">
+                  ${im.caption ? `<figcaption>${im.caption}</figcaption>` : ""}
+                </figure>
+              `).join("")}
+            </div>
+          ` : ""}
         </div>
-      ` : ""}
+      </div>
 
       <p class="back"><a href="${back.href}"><span class="arrow">&larr;</span> ${back.label}</a></p>
     </article>
+
+    <div class="sheet-backdrop" hidden></div>
+    <button class="ing-fab" type="button">Ingredients</button>
   `;
+
+  wireIngredientSheet();
+}
+
+/* The floating button only does anything on narrow screens — CSS hides it
+   above the two-column breakpoint, where both panels are visible anyway. */
+function wireIngredientSheet() {
+  const panel    = document.querySelector(".ingredients-col");
+  const fab      = document.querySelector(".ing-fab");
+  const backdrop = document.querySelector(".sheet-backdrop");
+  const closeBtn = document.querySelector(".sheet-close");
+
+  const setOpen = open => {
+    panel.classList.toggle("as-sheet", open);
+    backdrop.hidden = !open;
+    document.body.classList.toggle("sheet-open", open);
+  };
+
+  fab.addEventListener("click", () => setOpen(!panel.classList.contains("as-sheet")));
+  backdrop.addEventListener("click", () => setOpen(false));
+  closeBtn.addEventListener("click", () => setOpen(false));
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") setOpen(false);
+  });
 }

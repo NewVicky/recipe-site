@@ -373,3 +373,109 @@ header h1 a {
 .back a:hover .arrow {
   transform: translateX(-3px);
 }
+
+/* =========================================================
+   Recipe layout: one column on a phone, two on a wide screen
+   ========================================================= */
+
+.recipe-head h2 { margin-bottom: 0; }
+
+/* --- Wide screens: ingredients pinned beside the method --- */
+@media (min-width: 62rem) {
+  main.recipe-page {
+    max-width: 62rem;
+  }
+
+  .recipe-body {
+    display: grid;
+    grid-template-columns: 17rem 1fr;
+    gap: 2.75rem;
+    align-items: start;
+  }
+
+  .ingredients-col {
+    position: sticky;
+    top: 1.5rem;
+  }
+
+  /* The button and its sheet are pointless here — both panels are visible. */
+  .ing-fab,
+  .sheet-close,
+  .sheet-backdrop {
+    display: none !important;
+  }
+}
+
+/* --- Narrow screens: floating button + slide-up sheet --- */
+.ing-fab {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 30;
+  padding: 0.8rem 1.4rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.ingredients-col.as-sheet {
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 72vh;
+  overflow-y: auto;
+  margin: 0;
+  padding: 1.25rem 1.5rem 1.5rem;
+  background: var(--card);
+  border-top: 1px solid var(--line);
+  border-radius: 14px 14px 0 0;
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.18);
+}
+
+.ingredients-col.as-sheet h3 {
+  margin-top: 0;
+}
+
+body.sheet-open {
+  overflow: hidden;
+}
+
+/* Hidden until the sheet is open; the wide-screen rule hides it for good. */
+.sheet-close {
+  display: none;
+  width: 100%;
+  margin-top: 1.25rem;
+  padding: 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.ingredients-col.as-sheet .sheet-close {
+  display: block;
+}
+
+/* Room at the bottom so the floating button never covers the back link. */
+@media (max-width: 61.99rem) {
+  body {
+    padding-bottom: 7rem;
+  }
+}
