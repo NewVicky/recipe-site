@@ -630,5 +630,67 @@
         "src": "recipe"
       }
     ]
+  },
+  {
+    "slug": "southern-chicken-and-doughballs",
+    "title": "Southern Style Chicken and Doughballs",
+    "category": "Dinner",
+    "cuisine": "Southern",
+    "from": "Family",
+    "time": "1½ hours for the broth, then 15–20 minutes",
+    "blurb": "Also known as Elmer's Glue, because it sticks to your ribs.",
+    "ingredients": [
+      "1 whole chicken",
+      "2–3 cloves garlic",
+      "Celery",
+      "Onions",
+      "Carrots",
+      "Soup base",
+      "Salt",
+      "Pepper",
+      "Water — 1 to 2 inches over the chicken",
+      "For the doughballs: 1 stick of margarine",
+      "For the doughballs: 3 cups flour (2¾ may be enough — see notes)",
+      "For the doughballs: 1 tbsp parsley",
+      "For the doughballs: 1 cup chicken broth, from the pot",
+      "For the doughballs: tsp salt",
+      "For the doughballs: soup base"
+    ],
+    "method": [
+      "Put the whole chicken in a big pot with the garlic, celery, onions, carrots, soup base, salt and pepper.",
+      "Add water to come 1 or 2 inches over the chicken.",
+      "Boil, then simmer with the lid on for 1½ hours.",
+      "Strain. You should have about 6 cups of broth.",
+      "For the doughballs: melt the margarine, then add the salt, parsley and flour.",
+      "Add 1 cup of the chicken broth and mix to a dough.",
+      "Roll to ⅛ inch on a floured surface, and cut into 2 inch squares.",
+      "Get the broth boiling — it must be boiling before the doughballs go in, or they stick together.",
+      "Add the doughballs and simmer for 15 to 20 minutes, until tender."
+    ],
+    "troubleshooting": [
+      "Too sticky, add flour. Too floury, add broth."
+    ],
+    "notes": [
+      {
+        "text": "Elmer's Glue is what GiGi called it, because it sticks to your ribs.",
+        "src": "you"
+      },
+      {
+        "text": "Doughballs, not dumplings — the card crosses out \"Dumplings\" and writes \"Doughballs\" over it. The back of the card still says dumplings in one place.",
+        "src": "recipe"
+      },
+      {
+        "text": "The card says 3 cups of flour with \"2¾\" written beside it. You may not need the full 3 — go by the dough, and the too sticky / too floury note below.",
+        "src": "you"
+      },
+      {
+        "text": "Serve mashed potatoes alongside, as a side rather than in the pot.",
+        "src": "you"
+      },
+      {
+        "text": "No quantities were recorded for the salt or the soup base, in the broth or the doughballs.",
+        "src": "recipe"
+      }
+    ]
   }
 ]
