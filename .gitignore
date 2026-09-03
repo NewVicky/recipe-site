@@ -12,3 +12,6 @@ desktop.ini
 # Local-only things (e.g. a future admin form, notes, secrets)
 .env
 *.local
+
+# Photos kept out of the public repo
+photos-not-published/

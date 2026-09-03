@@ -108,6 +108,7 @@ function renderOne(recipes) {
   const notes = toList(r.notes);
   const trouble = toList(r.troubleshooting);
   const variations = r.variations || [];
+  const images = r.images || [];
 
   oneBox.innerHTML = `
     <article class="recipe">
@@ -135,8 +136,22 @@ function renderOne(recipes) {
       ` : ""}
 
       ${notes.length ? `
-        <h3>Notes</h3>
-        <ul class="notes">${notes.map(n => `<li>${n}</li>`).join("")}</ul>
+        <details class="notes-box">
+          <summary>Notes (${notes.length})</summary>
+          <ul class="notes">${notes.map(n => `<li>${n}</li>`).join("")}</ul>
+        </details>
+      ` : ""}
+
+      ${images.length ? `
+        <h3>Pictures</h3>
+        <div class="shots">
+          ${images.map(im => `
+            <figure>
+              <img src="${im.src}" alt="${im.caption || r.title}" loading="lazy">
+              ${im.caption ? `<figcaption>${im.caption}</figcaption>` : ""}
+            </figure>
+          `).join("")}
+        </div>
       ` : ""}
 
       <p class="back"><a href="index.html">&larr; All recipes</a></p>

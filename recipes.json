@@ -4,14 +4,14 @@
     "title": "Meatloaf",
     "category": "Dinner",
     "from": "Family",
-    "time": "1 hour in the oven",
+    "time": "1 hour at 350°F (for the 1 lb version)",
     "ingredients": [
       "1 lb ground beef (the family version uses 3 lbs — see notes)",
       "Onion, chopped",
       "Celery, chopped",
       "Garlic powder",
       "Breadcrumbs",
-      "2 eggs, beaten first",
+      "2 eggs, beaten first — both, even for the 1 lb version",
       "Ketchup",
       "Mustard",
       "Salt",
@@ -27,10 +27,10 @@
     ],
     "notes": [
       "The family version: 3 lbs of beef, and ketchup spread on top before it goes in the oven. This version is 1 lb and no ketchup on top.",
+      "The hour at 350°F is the real time for the 1 lb version — that's the one that actually gets made. No time was recorded for the 3 lb family version, which will need longer; 160°F in the middle is the check if you ever make that size.",
       "Loaf pan or free-form both work. Free-form gives you more crust; a pan means it sits in its own fat.",
-      "No quantities were recorded for the onion, celery, garlic or breadcrumbs — go by feel.",
-      "CHECK: the 1-hour bake probably belongs to one of the two sizes rather than both. A 1 lb loaf is usually done well before an hour, and 3 lbs takes longer. Worth checking the middle hits 160°F the next time either gets made, and writing the real time in here.",
-      "OPEN: does the 2 eggs go with the 1 lb version or the 3 lb one?"
+      "The onion, celery, breadcrumbs and garlic powder are eyeballed, not measured. That's how it's made, not a detail that went missing.",
+      "Both eggs go in even with 1 lb of beef. Whether the 3 lb family version scales the eggs up isn't known."
     ]
   },
   {
@@ -47,15 +47,14 @@
       "Pepper"
     ],
     "method": [
-      "Cut the potatoes into pieces.",
+      "Cut the potatoes into bite-size cubes.",
       "Toss with olive oil, garlic powder, salt and pepper.",
       "Roast at 350°F (175°C) for 20 minutes."
     ],
     "notes": [
       "Temperature confirmed at 350°F by the family member who makes these. It wasn't written on the original recipe.",
-      "CHECK: at 350°F, potato chunks usually want 45–60 minutes rather than 20. Something reconciles the two — most likely the pieces are cut smaller or thinner than a standard chunk. Worth asking how big they cut them.",
-      "Supporting that: <a href=\"recipe.html?r=roasted-veggies\">Roasted Veggies</a>, from a completely different source, puts potatoes at 45 minutes — at a hotter 400°F. Two unrelated recipes both landing well past 20 minutes makes the short time the likely error.",
-      "Until that's settled, treat the 20 minutes as a first check rather than a finish time — go by a fork going in easily and the edges browning."
+      "Bite-size cubes, as best remembered. That makes 20 minutes at 350°F plausible — small cubes in a single layer cook far faster than chunks — though it's still on the brisk side, so check with a fork rather than trusting the clock.",
+      "For contrast, <a href=\"recipe.html?r=roasted-veggies\">Roasted Veggies</a> gives potatoes 45 minutes at 400°F. No conflict: that one almost certainly means larger pieces."
     ]
   },
   {
@@ -64,29 +63,30 @@
     "category": "Dinner",
     "from": "Family",
     "ingredients": [
-      "Spaghetti — not on the original list, quantity to confirm",
-      "Ground beef",
+      "1 box of pasta — normally angel hair",
+      "Ground beef — typically 1 lb",
       "1 egg — the only binder, no breadcrumbs",
       "Celery salt, or celery seed",
       "Salt",
       "Pepper",
-      "Tomato soup — made up as normal soup (if condensed, add water per the can)",
-      "American cheese, or Velveeta"
+      "Tomato soup — enough to fill the pot, made up as normal soup (if condensed, add water per the can)",
+      "American cheese, or Velveeta — about half a block of Velveeta, melted in"
     ],
     "method": [
       "Make up the tomato soup as normal soup — if it's condensed, add the water the can calls for. Melt the American cheese or Velveeta into it.",
       "Mix the ground beef with the egg, salt, pepper and celery salt or celery seed. No breadcrumbs.",
       "Roll into meatballs.",
       "Drop the raw meatballs into the soup and cheese mixture and cook them in it.",
-      "Boil the spaghetti.",
-      "Serve the meatballs and sauce over the spaghetti."
+      "Boil the pasta.",
+      "Serve the meatballs and sauce over the pasta."
     ],
     "notes": [
       "This is the tomato-soup-and-melted-cheese style, not an Italian red sauce. That's the dish, not a substitution.",
       "No breadcrumbs — deliberate, not an omission. The egg is the only binder.",
       "The meatballs go in raw and cook in the sauce, so the sauce takes on flavour from the beef. They're never browned.",
       "General technique, not from the recipe: raw meatballs are fragile until they've set, so leave them alone for the first few minutes rather than stirring.",
-      "No quantities were recorded beyond the one egg."
+      "Quantities are by feel rather than measured. What typically gets used: a pound of ground beef, enough soup to fill the pot, and around half a block of Velveeta melted in.",
+      "The pasta isn't named in the original — it's normally angel hair, a whole box."
     ]
   },
   {
@@ -97,7 +97,7 @@
     "time": "Half an hour soaking, then a few minutes",
     "ingredients": [
       "Cucumbers",
-      "Onions",
+      "Onions, in half-moon slices",
       "Sour cream",
       "Salt",
       "Pepper"
@@ -106,15 +106,15 @@
       "Slice the cucumbers.",
       "Soak the slices in salt water for half an hour.",
       "Tip into a colander and squeeze really tight to get the water out.",
-      "Slice the onions.",
+      "Slice the onions into half-moons.",
       "Mix the cucumbers and onions with sour cream, salt and pepper."
     ],
     "notes": [
       "No vinegar — checked, not an omission. The sour comes from the sour cream.",
       "The soak and the hard squeeze are the whole trick — they pull the water out of the cucumbers so the sour cream stays thick instead of turning into a puddle. Don't shortcut either.",
       "Squeeze harder than feels reasonable. The cucumbers will look wrung out and that's correct.",
-      "How the onions are cut wasn't recorded. Thin is the safer default — raw onion goes strong in sour cream if the pieces are big. Write down what you end up liking.",
-      "No quantities were recorded."
+      "The onion cut isn't certain — half-moon slices is the best recollection, not a recorded instruction. Thin either way: raw onion goes strong in sour cream when the pieces are big.",
+      "Quantities are eyeballed — cucumbers, onion and sour cream all to taste. There are no measures for this one."
     ]
   },
   {
@@ -263,7 +263,7 @@
     "category": "Basics",
     "cuisine": "Dominican",
     "from": "Dominican family",
-    "serves": "A blender full — a decent-sized batch",
+    "serves": "About a big mason jar — roughly a quart",
     "blurb": "The seasoning base the other Dominican recipes call for.",
     "ingredients": [
       "4 heads of garlic",
@@ -283,8 +283,8 @@
     "notes": [
       "This is what <a href=\"recipe.html?r=dominican-beans\">Dominican Beans</a> means by \"¼ cup Dominican sazón\" — ¼ cup of this stands in for the 8 garlic cloves there.",
       "It needs to be refrigerated.",
-      "A blender full makes a decent-sized batch. The exact yield wasn't recorded — measure it once and write it in here.",
-      "How long it keeps in the fridge wasn't recorded. For a batch this size, freezing part of it in portions is worth considering, but that's my suggestion rather than the recipe."
+      "Yield is about a big mason jar, roughly a quart — near enough what a standard blender holds. Approximate rather than measured.",
+      "Keeps in the fridge, and best used within a week or two. If a whole jar is more than you'll get through in that time, freezing part of it in portions is worth considering — that part is my suggestion, not the recipe."
     ]
   },
   {
@@ -391,7 +391,7 @@
       "Once the caramel is ready it should look soft and liquid. Pour it into the baking dish, coating the bottom and the sides. Set aside.",
       "In a blender, mix the rest of the ingredients until smooth — about 2 minutes.",
       "Pour into the baking dish, the one with the caramel.",
-      "Bake it using the Bain Marie method. Any other method will harden the mix — you will get dulce de leche, not flan.",
+      "Bake it using the Bain Marie method — the baking dish sitting inside a larger dish of hot water. Any other method will harden the mix — you will get dulce de leche, not flan.",
       "Place in the oven at 325°F (160°C) for two hours or more. It's ready when a toothpick comes out clean.",
       "Let it cool off a little before putting it in the fridge for the next 12 to 24 hours.",
       "To serve, pass a knife around the edges and put a serving dish on top. Turn it over — it should fall onto the plate."
@@ -400,8 +400,7 @@
       "The Bain Marie isn't a preference. The recipe is explicit: any other method gives you dulce de leche instead of flan.",
       "The 12 to 24 hours in the fridge is part of making it, not storage. It needs that time to set before it will turn out.",
       "Once made, it keeps up to a week before serving.",
-      "Full fat is specified for both the evaporated and the condensed milk.",
-      "The original has photographs for two steps — what the finished caramel should look like, and how the Bain Marie is set up. Those aren't on this page yet."
+      "Full fat is specified for both the evaporated and the condensed milk."
     ]
   },
   {
