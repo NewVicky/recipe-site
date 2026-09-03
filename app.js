@@ -4,7 +4,7 @@
 const listBox = document.getElementById("recipe-list");
 const oneBox  = document.getElementById("recipe");
 
-const UNCATEGORISED = "Other";
+const UNCATEGORIZED = "Other";
 
 /* Tab order. This is the one list worth keeping by hand — a meal reads in
    an order that alphabetical can't guess. Categories not named here still
@@ -51,10 +51,10 @@ function toList(value) {
    --------------------------------------------------------- */
 function renderList(recipes) {
   const active = new URLSearchParams(location.search).get("c");
-  const categories = [...new Set(recipes.map(r => r.category || UNCATEGORISED))].sort(byCategoryOrder);
+  const categories = [...new Set(recipes.map(r => r.category || UNCATEGORIZED))].sort(byCategoryOrder);
 
   const shown = active
-    ? recipes.filter(r => (r.category || UNCATEGORISED) === active)
+    ? recipes.filter(r => (r.category || UNCATEGORIZED) === active)
     : recipes;
 
   renderTabs(categories, active, recipes);
@@ -67,7 +67,7 @@ function renderList(recipes) {
   listBox.innerHTML = shown.map(r => `
     <a class="card" href="recipe.html?r=${r.slug}">
       <h2>${r.title}</h2>
-      <p class="meta">${metaLine([r.category || UNCATEGORISED, r.cuisine, r.time, r.serves])}</p>
+      <p class="meta">${metaLine([r.category || UNCATEGORIZED, r.cuisine, r.time, r.serves])}</p>
       ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
     </a>
   `).join("");
@@ -78,7 +78,7 @@ function renderTabs(categories, active, recipes) {
   if (!tabBox) return;
   if (categories.length < 2) return;
 
-  const count = cat => recipes.filter(r => (r.category || UNCATEGORISED) === cat).length;
+  const count = cat => recipes.filter(r => (r.category || UNCATEGORIZED) === cat).length;
 
   const tab = (label, href, isActive, n) =>
     `<a class="tab${isActive ? " tab-active" : ""}" href="${href}">${label} <span class="tab-count">${n}</span></a>`;
@@ -103,7 +103,7 @@ function renderOne(recipes) {
 
   document.title = `${r.title} — My Recipes`;
 
-  const cat = r.category || UNCATEGORISED;
+  const cat = r.category || UNCATEGORIZED;
   const catLink = `<a href="index.html?c=${encodeURIComponent(cat)}">${cat}</a>`;
   // Notes carry where their information came from: "recipe" (in the source),
   // "you" (told to me later), "claude" (my general knowledge, in no source).

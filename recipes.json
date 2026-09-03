@@ -138,7 +138,7 @@
         "src": "claude"
       },
       {
-        "text": "Cooking the meatballs in the sauce means the sauce takes on flavour from the beef.",
+        "text": "Cooking the meatballs in the sauce means the sauce takes on flavor from the beef.",
         "src": "claude"
       },
       {
@@ -306,7 +306,7 @@
       "Clean the chicken, removing the fat around the neck and the bottom.",
       "Cover the chicken with the sauce, including the empty cavity.",
       "Place the lemon wedges inside the cavity.",
-      "Roast at 450°F for an hour and a half. Turn the chicken once it is golden on top, so the colour and texture come out even. Finish roasting."
+      "Roast at 450°F for an hour and a half. Turn the chicken once it is golden on top, so the color and texture come out even. Finish roasting."
     ],
     "variations": [
       {
@@ -379,7 +379,7 @@
         "src": "recipe"
       },
       {
-        "text": "The pepper and onion are only halved and the cilantro isn't cut because they all come back out at the end — they flavour the pot rather than being eaten in it. The recipe doesn't say the two facts are connected, but they clearly are.",
+        "text": "The pepper and onion are only halved and the cilantro isn't cut because they all come back out at the end — they flavor the pot rather than being eaten in it. The recipe doesn't say the two facts are connected, but they clearly are.",
         "src": "claude"
       }
     ]
@@ -455,7 +455,7 @@
         "src": "recipe"
       },
       {
-        "text": "Generalising from that: the denser the vegetable, the closer to 45 minutes; softer ones nearer 20.",
+        "text": "Generalizing from that: the denser the vegetable, the closer to 45 minutes; softer ones nearer 20.",
         "src": "claude"
       },
       {
@@ -478,7 +478,7 @@
     ],
     "method": [
       "Peel and cut the plantains, and boil them with salt.",
-      "Watch for the colour change — the plantains turn a dark yellow, and if they're green the water takes on a purple-greyish colour. At this point, add cold water.",
+      "Watch for the color change — the plantains turn a dark yellow, and if they're green the water takes on a purple-grayish color. At this point, add cold water.",
       "Remove from the heat when they are soft when pinched with a fork.",
       "Remove almost all the water, leaving about ¼ cup in with the plantains for easy mashing.",
       "Add butter and milk, and mash until nice and creamy.",
@@ -493,11 +493,11 @@
         "src": "you"
       },
       {
-        "text": "The cold water goes in at the colour change, not at the start. It's a step in its own right, not topping up the pot.",
+        "text": "The cold water goes in at the color change, not at the start. It's a step in its own right, not topping up the pot.",
         "src": "recipe"
       },
       {
-        "text": "The colour is the timer. Dark yellow plantains, or purple-greyish water if you started with green ones.",
+        "text": "The color is the timer. Dark yellow plantains, or purple-grayish water if you started with green ones.",
         "src": "recipe"
       },
       {
