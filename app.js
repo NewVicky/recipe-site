@@ -105,7 +105,10 @@ function renderOne(recipes) {
 
   const cat = r.category || UNCATEGORISED;
   const catLink = `<a href="index.html?c=${encodeURIComponent(cat)}">${cat}</a>`;
-  const notes = toList(r.notes);
+  // Notes carry where their information came from: "recipe" (in the source),
+  // "you" (told to me later), "claude" (my general knowledge, in no source).
+  // A plain string is treated as "recipe" so notes stay easy to add by hand.
+  const notes = toList(r.notes).map(n => typeof n === "string" ? { text: n, src: "recipe" } : n);
   const trouble = toList(r.troubleshooting);
   const variations = r.variations || [];
   const images = r.images || [];
@@ -138,7 +141,10 @@ function renderOne(recipes) {
       ${notes.length ? `
         <details class="notes-box">
           <summary>Notes (${notes.length})</summary>
-          <ul class="notes">${notes.map(n => `<li>${n}</li>`).join("")}</ul>
+          <ul class="notes">${notes.map(n => `
+            <li${n.src === "claude" ? ' class="added"' : ""}>${n.text}${
+              n.src === "claude" ? ' <span class="added-tag">added by Claude</span>' : ""
+            }</li>`).join("")}</ul>
         </details>
       ` : ""}
 

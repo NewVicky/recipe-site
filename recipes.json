@@ -18,7 +18,7 @@
       "Pepper"
     ],
     "method": [
-      "Heat the oven to 350°F (175°C).",
+      "Heat the oven to 350°F.",
       "Beat the eggs before anything else goes in.",
       "Chop the onion and celery. They go in raw.",
       "Mix everything together — the ketchup and mustard go into the mix.",
@@ -26,11 +26,34 @@
       "Bake for 1 hour."
     ],
     "notes": [
-      "The family version: 3 lbs of beef, and ketchup spread on top before it goes in the oven. This version is 1 lb and no ketchup on top.",
-      "The hour at 350°F is the real time for the 1 lb version — that's the one that actually gets made. No time was recorded for the 3 lb family version, which will need longer; 160°F in the middle is the check if you ever make that size.",
-      "Loaf pan or free-form both work. Free-form gives you more crust; a pan means it sits in its own fat.",
-      "The onion, celery, breadcrumbs and garlic powder are eyeballed, not measured. That's how it's made, not a detail that went missing.",
-      "Both eggs go in even with 1 lb of beef. Whether the 3 lb family version scales the eggs up isn't known."
+      {
+        "text": "The family version: 3 lbs of beef, and ketchup spread on top before it goes in the oven. This version is 1 lb and no ketchup on top.",
+        "src": "you"
+      },
+      {
+        "text": "The hour at 350°F is the real time for the 1 lb version — that's the one that actually gets made. No time was recorded for the 3 lb family version, which will need longer.",
+        "src": "you"
+      },
+      {
+        "text": "If you ever make the 3 lb size, 160°F in the middle is the doneness check.",
+        "src": "claude"
+      },
+      {
+        "text": "Loaf pan or free-form both work.",
+        "src": "you"
+      },
+      {
+        "text": "Free-form gives you more crust; a pan means it sits in its own fat.",
+        "src": "claude"
+      },
+      {
+        "text": "The onion, celery, breadcrumbs and garlic powder are eyeballed, not measured. That's how it's made, not a detail that went missing.",
+        "src": "you"
+      },
+      {
+        "text": "Both eggs go in even with 1 lb of beef. Whether the 3 lb family version scales the eggs up isn't known.",
+        "src": "you"
+      }
     ]
   },
   {
@@ -49,12 +72,25 @@
     "method": [
       "Cut the potatoes into bite-size cubes.",
       "Spread on a tray and toss with olive oil, garlic powder, salt and pepper.",
-      "Roast at 350°F (175°C) for 20 minutes."
+      "Roast at 350°F for 20 minutes."
     ],
     "notes": [
-      "Temperature confirmed at 350°F by the family member who makes these. It wasn't written on the original recipe.",
-      "Bite-size cubes, as best remembered. That makes 20 minutes at 350°F plausible — small cubes in a single layer cook far faster than chunks — though it's still on the brisk side, so check with a fork rather than trusting the clock.",
-      "For contrast, <a href=\"recipe.html?r=roasted-veggies\">Roasted Veggies</a> gives potatoes 45 minutes at 400°F. No conflict: that one almost certainly means larger pieces."
+      {
+        "text": "Temperature confirmed at 350°F by the family member who makes these. It wasn't written on the original recipe.",
+        "src": "you"
+      },
+      {
+        "text": "Bite-size cubes, as best remembered, rather than a recorded instruction.",
+        "src": "you"
+      },
+      {
+        "text": "Small cubes in a single layer cook far faster than chunks, which makes 20 minutes at 350°F plausible — though still brisk, so check with a fork rather than trusting the clock.",
+        "src": "claude"
+      },
+      {
+        "text": "For contrast, <a href=\"recipe.html?r=roasted-veggies\">Roasted Veggies</a> gives potatoes 45 minutes at 400°F. Probably no conflict — that one likely means larger pieces.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -81,12 +117,34 @@
       "Serve the meatballs and sauce over the pasta."
     ],
     "notes": [
-      "This is the tomato-soup-and-melted-cheese style, not an Italian red sauce. That's the dish, not a substitution.",
-      "No breadcrumbs — deliberate, not an omission. The egg is the only binder.",
-      "The meatballs go in raw and cook in the sauce, so the sauce takes on flavour from the beef. They're never browned.",
-      "General technique, not from the recipe: raw meatballs are fragile until they've set, so leave them alone for the first few minutes rather than stirring.",
-      "Quantities are by feel rather than measured. What typically gets used: a pound of ground beef, enough soup to fill the pot, and around half a block of Velveeta melted in.",
-      "The pasta isn't named in the original — it's normally angel hair, a whole box."
+      {
+        "text": "No breadcrumbs — deliberate, not an omission. The egg is the only binder.",
+        "src": "you"
+      },
+      {
+        "text": "The meatballs go in raw and cook in the sauce. They're never browned.",
+        "src": "you"
+      },
+      {
+        "text": "Quantities are by feel rather than measured. What typically gets used: a pound of ground beef, enough soup to fill the pot, and around half a block of Velveeta melted in.",
+        "src": "you"
+      },
+      {
+        "text": "The pasta isn't named in the original — it's normally angel hair, a whole box.",
+        "src": "you"
+      },
+      {
+        "text": "This is the tomato-soup-and-melted-cheese style rather than an Italian red sauce. Worth saying so it doesn't get 'corrected' into marinara.",
+        "src": "claude"
+      },
+      {
+        "text": "Cooking the meatballs in the sauce means the sauce takes on flavour from the beef.",
+        "src": "claude"
+      },
+      {
+        "text": "Raw meatballs are fragile until they've set, so leave them alone for the first few minutes rather than stirring.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -110,11 +168,30 @@
       "Mix the cucumbers and onions with sour cream, salt and pepper."
     ],
     "notes": [
-      "No vinegar — checked, not an omission. The sour comes from the sour cream.",
-      "The soak and the hard squeeze are the whole trick — they pull the water out of the cucumbers so the sour cream stays thick instead of turning into a puddle. Don't shortcut either.",
-      "Squeeze harder than feels reasonable. The cucumbers will look wrung out and that's correct.",
-      "The onion cut isn't certain — half-moon slices is the best recollection, not a recorded instruction. Thin either way: raw onion goes strong in sour cream when the pieces are big.",
-      "Quantities are eyeballed — cucumbers, onion and sour cream all to taste. There are no measures for this one."
+      {
+        "text": "No vinegar — checked, not an omission. The sour comes from the sour cream.",
+        "src": "you"
+      },
+      {
+        "text": "Slice, soak in salt water for half an hour, then squeeze really tight. Both steps matter.",
+        "src": "recipe"
+      },
+      {
+        "text": "The salting and squeezing pull water out of the cucumbers, which is what keeps the sour cream thick instead of turning into a puddle. Squeeze harder than feels reasonable.",
+        "src": "claude"
+      },
+      {
+        "text": "The onion cut isn't certain — half-moon slices is the best recollection, not a recorded instruction.",
+        "src": "you"
+      },
+      {
+        "text": "Thin either way: raw onion goes strong in sour cream when the pieces are big.",
+        "src": "claude"
+      },
+      {
+        "text": "Quantities are eyeballed — cucumbers, onion and sour cream all to taste. There are no measures for this one.",
+        "src": "you"
+      }
     ]
   },
   {
@@ -131,17 +208,29 @@
       "1 egg"
     ],
     "method": [
-      "Heat the oven to 350°F (175°C).",
+      "Heat the oven to 350°F.",
       "Mix the peanut butter, sugar and egg together until smooth.",
       "Roll into balls and space them out on a baking sheet.",
       "Press a criss-cross pattern into each one with a fork.",
       "Bake for 10 minutes."
     ],
     "notes": [
-      "Coconut sugar works in place of white sugar — both are in the original.",
-      "No flour at all, so these happen to be gluten-free as long as the peanut butter is.",
-      "The fork criss-cross isn't only decoration — it flattens the balls so they bake through evenly in the 10 minutes.",
-      "They come out very soft and firm up as they cool, so don't judge them straight from the oven."
+      {
+        "text": "Coconut sugar works in place of white sugar — both are in the original.",
+        "src": "recipe"
+      },
+      {
+        "text": "No flour at all, so these happen to be gluten-free as long as the peanut butter is.",
+        "src": "claude"
+      },
+      {
+        "text": "The fork criss-cross isn't only decoration — it flattens the balls so they bake through evenly in the 10 minutes.",
+        "src": "claude"
+      },
+      {
+        "text": "They come out very soft and firm up as they cool, so don't judge them straight from the oven.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -150,7 +239,7 @@
     "category": "Sides",
     "cuisine": "Dominican",
     "from": "Dominican family",
-    "time": "About 45 minutes",
+    "time": "Roughly 45 minutes in stages",
     "ingredients": [
       "2 cups of rice",
       "1 tablespoon of salt",
@@ -179,8 +268,18 @@
       }
     ],
     "notes": [
-      "The spoon test is the whole measurement — the 3 cups of water is approximate and the spoon is what actually tells you.",
-      "The fold at 20 minutes isn't a stir. Top goes to the bottom so both layers get time against the pan."
+      {
+        "text": "The spoon test is the real measurement — the 3 cups of water is approximate, and the spoon is what actually tells you.",
+        "src": "recipe"
+      },
+      {
+        "text": "At 20 minutes the rice is folded, not stirred: the part that was on top goes to the bottom.",
+        "src": "recipe"
+      },
+      {
+        "text": "Folding rather than stirring gives both layers time against the pan, which is where the concón comes from.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -207,7 +306,7 @@
       "Clean the chicken, removing the fat around the neck and the bottom.",
       "Cover the chicken with the sauce, including the empty cavity.",
       "Place the lemon wedges inside the cavity.",
-      "Roast at 450°F (230°C) for an hour and a half. Turn the chicken once it is golden on top, so the colour and texture come out even. Finish roasting."
+      "Roast at 450°F for an hour and a half. Turn the chicken once it is golden on top, so the colour and texture come out even. Finish roasting."
     ],
     "variations": [
       {
@@ -216,9 +315,18 @@
       }
     ],
     "notes": [
-      "The pepper flakes here are dried chile de árbol, ground in the blender. Sold at Giant Eagle and Walmart.",
-      "Reserve the lemon wedges when you juice it — they go in the cavity, they aren't a garnish.",
-      "Not from the recipe: chicken sizes vary a lot, so the hour and a half shifts with the bird. The thickest part of the thigh reaching 165°F is the reliable check."
+      {
+        "text": "The pepper flakes here are dried chile de árbol, ground in the blender. Sold at Giant Eagle and Walmart.",
+        "src": "recipe"
+      },
+      {
+        "text": "Reserve the lemon wedges when you juice it — they go in the cavity, they aren't a garnish.",
+        "src": "recipe"
+      },
+      {
+        "text": "Chicken sizes vary a lot, so the hour and a half shifts with the bird. The thickest part of the thigh reaching 165°F is the reliable check.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -250,11 +358,30 @@
       "Remove all the vegetables before serving."
     ],
     "notes": [
-      "The pepper and onion are only halved and the cilantro isn't cut because they all come back out at the end. They're there to flavour the pot, not to be eaten in it.",
-      "The habanero goes in whole for the same reason — it's how you control the heat and still get it out.",
-      "Beans will be creamier if they cook slowly. Rushing the second stage costs you the texture.",
-      "The squeeze test is the real doneness check, not the clock — the cream should come straight out of the bean.",
-      "¼ cup of <a href=\"recipe.html?r=dominican-sazon\">Dominican Sazón</a> stands in for the 8 garlic cloves if you have it."
+      {
+        "text": "The habanero goes in whole so it's easy to remove later — that's how the heat is controlled.",
+        "src": "recipe"
+      },
+      {
+        "text": "Beans will be creamier if they cook slowly.",
+        "src": "recipe"
+      },
+      {
+        "text": "The squeeze test is the doneness check for the beans, not the clock — the cream should come straight out.",
+        "src": "recipe"
+      },
+      {
+        "text": "All the vegetables come out before serving.",
+        "src": "recipe"
+      },
+      {
+        "text": "¼ cup of <a href=\"recipe.html?r=dominican-sazon\">Dominican Sazón</a> stands in for the 8 garlic cloves if you have it.",
+        "src": "recipe"
+      },
+      {
+        "text": "The pepper and onion are only halved and the cilantro isn't cut because they all come back out at the end — they flavour the pot rather than being eaten in it. The recipe doesn't say the two facts are connected, but they clearly are.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -281,10 +408,22 @@
       "In a regular-size blender, blend everything together."
     ],
     "notes": [
-      "This is what <a href=\"recipe.html?r=dominican-beans\">Dominican Beans</a> means by \"¼ cup Dominican sazón\" — ¼ cup of this stands in for the 8 garlic cloves there.",
-      "It needs to be refrigerated.",
-      "Yield is about a big mason jar, roughly a quart — near enough what a standard blender holds. Approximate rather than measured.",
-      "Keeps in the fridge, and best used within a week or two. If a whole jar is more than you'll get through in that time, freezing part of it in portions is worth considering — that part is my suggestion, not the recipe."
+      {
+        "text": "It needs to be refrigerated, and is best used within a week or two.",
+        "src": "you"
+      },
+      {
+        "text": "Yield is about a big mason jar, roughly a quart — near enough what a standard blender holds. Approximate rather than measured.",
+        "src": "you"
+      },
+      {
+        "text": "¼ cup of this stands in for the 8 garlic cloves in <a href=\"recipe.html?r=dominican-beans\">Dominican Beans</a>.",
+        "src": "recipe"
+      },
+      {
+        "text": "If a whole jar is more than you'll get through in a week or two, freezing part of it in portions is worth considering.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -304,12 +443,25 @@
       "Spread olive oil on a tray.",
       "Add the cut vegetables.",
       "Sprinkle with salt, pepper and hot pepper flakes.",
-      "Roast at 400°F (200°C) until nice and tender — anywhere from 20 to 45 minutes depending on the vegetables. Potatoes, sweet potatoes and the like will be 45 minutes."
+      "Roast at 400°F until nice and tender — anywhere from 20 to 45 minutes depending on the vegetables. Potatoes, sweet potatoes and the like will be 45 minutes."
     ],
     "notes": [
-      "The oil goes on the tray first, then the vegetables on top of it.",
-      "The time range isn't vagueness — it's the whole instruction. Dense root vegetables sit at the 45-minute end, softer ones nearer 20. Judge by tender, not by clock.",
-      "The hot pepper flakes are the same ground dried chile de árbol used in the <a href=\"recipe.html?r=roasted-chicken\">Roasted Chicken</a>."
+      {
+        "text": "The oil goes on the tray first, then the vegetables on top of it.",
+        "src": "recipe"
+      },
+      {
+        "text": "The 20-to-45-minute range isn't vagueness, it's the instruction — potatoes and sweet potatoes take the full 45. Judge by tender, not by clock.",
+        "src": "recipe"
+      },
+      {
+        "text": "Generalising from that: the denser the vegetable, the closer to 45 minutes; softer ones nearer 20.",
+        "src": "claude"
+      },
+      {
+        "text": "The recipe just says 'hot pepper flakes'. It's probably the same ground dried chile de árbol as in the Roasted Chicken, given the same kitchen — but that's an assumption, not stated.",
+        "src": "claude"
+      }
     ]
   },
   {
@@ -336,11 +488,26 @@
       "If it has gone hard from cooling, heat it in the microwave, add more fat or cheese, and mash again."
     ],
     "notes": [
-      "Filed under Breakfast because that's what it is, but in practice it gets eaten more as a side — and often as breakfast for dinner.",
-      "The cold water goes in at the colour change, not at the start. It's a step in its own right, not topping up the pot.",
-      "The colour is the timer. Dark yellow plantains, or purple-greyish water if you started with green ones.",
-      "Don't drain it dry — the ¼ cup of cooking water left behind is what lets it mash creamy.",
-      "Serve immediately is an instruction, not a suggestion. This one doesn't sit."
+      {
+        "text": "Filed under Breakfast because that's what it is, but in practice it gets eaten more as a side — and often as breakfast for dinner.",
+        "src": "you"
+      },
+      {
+        "text": "The cold water goes in at the colour change, not at the start. It's a step in its own right, not topping up the pot.",
+        "src": "recipe"
+      },
+      {
+        "text": "The colour is the timer. Dark yellow plantains, or purple-greyish water if you started with green ones.",
+        "src": "recipe"
+      },
+      {
+        "text": "Don't drain it dry — the ¼ cup of cooking water left behind is what lets it mash creamy.",
+        "src": "recipe"
+      },
+      {
+        "text": "Serve immediately is an instruction, not a suggestion. It goes hard as it cools.",
+        "src": "recipe"
+      }
     ]
   },
   {
@@ -366,9 +533,22 @@
       "Divide in half. Makes 2 crusts."
     ],
     "notes": [
-      "The flour is listed twice on purpose. 1½ cups goes into the butter; a separate ½ cup makes the slurry. It isn't a duplication, and combining them would give you a different pastry.",
-      "It rolls easier when refrigerated, but it bakes the same either way.",
-      "Passed along by the same person the Dominican recipes came from, who had it from Mrs. L. The original is titled \"The Last Pie Crust you'll ever need.\""
+      {
+        "text": "The flour is listed twice on purpose. 1½ cups goes into the butter; a separate ½ cup makes the slurry. It isn't a duplication.",
+        "src": "recipe"
+      },
+      {
+        "text": "Combining the two lots of flour would give you a different pastry — the slurry is the method.",
+        "src": "claude"
+      },
+      {
+        "text": "It rolls easier when refrigerated, but it bakes the same either way.",
+        "src": "recipe"
+      },
+      {
+        "text": "Passed along by the same person the Dominican recipes came from, who had it from Mrs. L. The original is titled \"The Last Pie Crust you'll ever need.\"",
+        "src": "you"
+      }
     ]
   },
   {
@@ -393,15 +573,23 @@
       "In a blender, mix the rest of the ingredients until smooth — about 2 minutes.",
       "Pour into the baking dish, the one with the caramel.",
       "Bake it using the Bain Marie method — the baking dish sitting inside a larger dish of hot water. Any other method will harden the mix — you will get dulce de leche, not flan.",
-      "Place in the oven at 325°F (160°C) for two hours or more. It's ready when a toothpick comes out clean.",
+      "Place in the oven at 325°F for two hours or more. It's ready when a toothpick comes out clean.",
       "Let it cool off a little before putting it in the fridge for the next 12 to 24 hours.",
       "To serve, pass a knife around the edges and put a serving dish on top. Turn it over — it should fall onto the plate."
     ],
     "notes": [
-      "The Bain Marie isn't a preference. The recipe is explicit: any other method gives you dulce de leche instead of flan.",
-      "The 12 to 24 hours in the fridge is part of making it, not storage. It needs that time to set before it will turn out.",
-      "Once made, it keeps up to a week before serving.",
-      "Full fat is specified for both the evaporated and the condensed milk."
+      {
+        "text": "The Bain Marie isn't a preference. The recipe is explicit: any other method gives you dulce de leche instead of flan.",
+        "src": "recipe"
+      },
+      {
+        "text": "The 12 to 24 hours in the fridge is part of making it, not storage — the recipe separately says it keeps up to a week after that.",
+        "src": "recipe"
+      },
+      {
+        "text": "Full fat is specified for both the evaporated and the condensed milk.",
+        "src": "recipe"
+      }
     ]
   },
   {
@@ -429,9 +617,22 @@
       }
     ],
     "notes": [
-      "Yes, it is called Morir Soñando — dying in your dreams.",
-      "The milk going in slowly with the blender still running is the whole technique. Orange juice is acidic enough to curdle milk if the two meet all at once, and everything being cold helps too.",
-      "The sugar is to taste rather than a fixed amount."
+      {
+        "text": "Yes, it is called Morir Soñando — dying in your dreams.",
+        "src": "recipe"
+      },
+      {
+        "text": "The milk goes in slowly with the blender still running.",
+        "src": "recipe"
+      },
+      {
+        "text": "That slow pour is what stops it splitting — orange juice is acidic enough to curdle milk if the two meet all at once, and keeping everything cold helps too.",
+        "src": "claude"
+      },
+      {
+        "text": "The sugar is to taste rather than a fixed amount.",
+        "src": "recipe"
+      }
     ]
   }
 ]
