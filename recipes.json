@@ -1,46 +1,5 @@
 [
   {
-    "slug": "garlic-butter-pasta",
-    "title": "Garlic Butter Pasta",
-    "category": "Dinner",
-    "time": "15 minutes",
-    "serves": "Serves 2",
-    "blurb": "Five ingredients, one pan, and better than it has any right to be.",
-    "ingredients": [
-      "200g spaghetti",
-      "4 cloves garlic, thinly sliced",
-      "60g butter",
-      "A handful of parsley, chopped",
-      "Parmesan, salt, black pepper"
-    ],
-    "method": [
-      "Boil the pasta in well-salted water. Save a cup of the water before draining.",
-      "Melt the butter in a pan over low heat. Add the garlic and cook gently until soft, not brown.",
-      "Add the drained pasta and a splash of the pasta water. Toss until glossy.",
-      "Stir through the parsley. Serve with parmesan and lots of pepper."
-    ]
-  },
-  {
-    "slug": "overnight-oats",
-    "title": "Overnight Oats",
-    "category": "Breakfast",
-    "time": "5 minutes, plus overnight",
-    "serves": "Serves 1",
-    "blurb": "Tomorrow's breakfast, sorted tonight.",
-    "ingredients": [
-      "50g rolled oats",
-      "120ml milk of your choice",
-      "2 tbsp yoghurt",
-      "1 tsp honey or maple syrup",
-      "Fruit, nuts, or seeds to top"
-    ],
-    "method": [
-      "Stir the oats, milk, yoghurt and honey together in a jar.",
-      "Cover and leave in the fridge overnight.",
-      "In the morning, loosen with a little more milk and add your toppings."
-    ]
-  },
-  {
     "slug": "meatloaf",
     "title": "Meatloaf",
     "category": "Dinner",
