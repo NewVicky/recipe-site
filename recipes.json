@@ -692,5 +692,123 @@
         "src": "you"
       }
     ]
+  },
+  {
+    "slug": "cherry-nut-bread",
+    "title": "Cherry Nut Bread",
+    "category": "Breakfast",
+    "from": "<a href=\"https://iwashyoudry.com/cherry-nut-bread-pats-recipes/\">I Wash You Dry</a>",
+    "time": "45 to 60 minutes at 350°F",
+    "serves": "1 loaf, about 8 slices",
+    "blurb": "A vintage quick bread with maraschino cherries and walnuts.",
+    "ingredients": [
+      "4 tbsp butter, softened",
+      "1 cup brown sugar",
+      "1 egg",
+      "2 cups all-purpose flour",
+      "2 tsp baking powder",
+      "1 tsp salt",
+      "1 bottle (10 oz) maraschino cherries",
+      "Milk — enough to make the cherry juice up to 1 cup",
+      "½ cup walnuts, or other nuts"
+    ],
+    "method": [
+      "Heat the oven to 350°F and grease an 8x4 inch loaf pan.",
+      "Cream the butter and brown sugar together until light, then beat in the egg.",
+      "In a separate bowl, whisk the flour, baking powder and salt together.",
+      "Drain the juice from the cherries into a measuring cup, then top it up with milk until you have 1 cup of liquid.",
+      "Add the flour mixture and the cherry milk to the butter mixture in turns, stirring only until it comes together.",
+      "Chop the cherries, then fold them and the walnuts through the batter.",
+      "Pour into the pan and bake for 45 to 60 minutes, until a toothpick comes out clean.",
+      "Cool in the pan for 10 minutes, then turn out onto a wire rack to cool completely."
+    ],
+    "notes": [
+      {
+        "text": "Don't throw the cherry juice away — it makes up part of the 1 cup of liquid, and it's where the color and most of the cherry flavor come from.",
+        "src": "claude"
+      },
+      {
+        "text": "Stir only until it comes together. Overworking a quick bread batter makes the loaf tough.",
+        "src": "claude"
+      }
+    ]
+  },
+  {
+    "slug": "twice-baked-potatoes",
+    "title": "Twice-Baked Potatoes",
+    "category": "Sides",
+    "time": "1 hour, then 20 minutes",
+    "serves": "4 potatoes, 8 halves",
+    "ingredients": [
+      "4 large potatoes",
+      "4 slices bacon (optional — see notes)",
+      "¼ to ½ cup milk",
+      "¼ cup butter, soft",
+      "¼ tsp salt",
+      "Dash of pepper",
+      "1 cup cheddar cheese (4 oz)",
+      "1 tbsp chives, or green onion"
+    ],
+    "method": [
+      "Bake the potatoes at 350°F for 1 hour.",
+      "Cut each one in half and scoop out the inside.",
+      "Mash the potato on low until there are no lumps, adding the milk a little at a time until it's smooth.",
+      "Add the butter, salt and pepper.",
+      "Stir in the cheese and the chives or green onions.",
+      "Fill the shells with the mixture and set them on a sheet.",
+      "Bake at 400°F for 20 minutes."
+    ],
+    "notes": [
+      {
+        "text": "The bacon is optional and doesn't appear in the steps on the card. Cook it separately and put it on top rather than mixing it through.",
+        "src": "you"
+      },
+      {
+        "text": "Where this one came from isn't known.",
+        "src": "you"
+      }
+    ]
+  },
+  {
+    "slug": "pumpkin-quick-bread",
+    "title": "Pumpkin Quick Bread",
+    "category": "Breakfast",
+    "time": "60 to 70 minutes at 350°F, plus an hour cooling",
+    "serves": "1 loaf, 9x5 pan",
+    "ingredients": [
+      "Wet — 1 cup pumpkin purée",
+      "Wet — ½ cup vegetable oil",
+      "Wet — ½ cup light brown sugar",
+      "Wet — ¼ cup water",
+      "Wet — 2 eggs",
+      "Wet — 1 tsp vanilla",
+      "Dry — 2¼ cups flour",
+      "Dry — ¾ cup granulated sugar",
+      "Dry — 2 tsps baking powder",
+      "Dry — 1½ tsps pumpkin pie spice",
+      "Dry — ½ tsp salt"
+    ],
+    "method": [
+      "Preheat the oven to 350°F.",
+      "Line a 9x5 pan with parchment paper.",
+      "Whisk the wet ingredients together. Whisk the dry ingredients together separately.",
+      "Fold the wet into the dry ingredients.",
+      "Bake for 60 to 70 minutes.",
+      "Let it cool for 1 hour before removing it from the pan."
+    ],
+    "notes": [
+      {
+        "text": "The card groups the ingredients into wet and dry with a gap between them, and the method whisks each separately before folding — so the two lists are part of the instruction, not just layout.",
+        "src": "recipe"
+      },
+      {
+        "text": "The full hour of cooling before you take it out of the pan is on the card. A quick bread this wet will tear if you rush it.",
+        "src": "recipe"
+      },
+      {
+        "text": "Found online somewhere — the exact source wasn't recorded.",
+        "src": "you"
+      }
+    ]
   }
 ]
