@@ -53,7 +53,7 @@ function renderList(recipes) {
   listBox.innerHTML = shown.map(r => `
     <a class="card" href="recipe.html?r=${r.slug}">
       <h2>${r.title}</h2>
-      <p class="meta">${metaLine([r.category || UNCATEGORISED, r.time, r.serves])}</p>
+      <p class="meta">${metaLine([r.category || UNCATEGORISED, r.cuisine, r.time, r.serves])}</p>
       ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
     </a>
   `).join("");
@@ -92,12 +92,14 @@ function renderOne(recipes) {
   const cat = r.category || UNCATEGORISED;
   const catLink = `<a href="index.html?c=${encodeURIComponent(cat)}">${cat}</a>`;
   const notes = toList(r.notes);
+  const trouble = toList(r.troubleshooting);
+  const variations = r.variations || [];
 
   oneBox.innerHTML = `
     <article class="recipe">
       <h2>${r.title}</h2>
       ${r.from ? `<p class="from">From ${r.from}</p>` : ""}
-      <p class="meta">${metaLine([catLink, r.time, r.serves])}</p>
+      <p class="meta">${metaLine([catLink, r.cuisine, r.time, r.serves])}</p>
       ${r.blurb ? `<p class="blurb">${r.blurb}</p>` : ""}
 
       <h3>Ingredients</h3>
@@ -105,6 +107,18 @@ function renderOne(recipes) {
 
       <h3>Method</h3>
       <ol>${r.method.map(s => `<li>${s}</li>`).join("")}</ol>
+
+      ${trouble.length ? `
+        <h3>Troubleshooting</h3>
+        <ul class="notes">${trouble.map(t => `<li>${t}</li>`).join("")}</ul>
+      ` : ""}
+
+      ${variations.length ? `
+        <h3>Variations</h3>
+        <dl class="variations">
+          ${variations.map(v => `<dt>${v.name}</dt><dd>${v.how}</dd>`).join("")}
+        </dl>
+      ` : ""}
 
       ${notes.length ? `
         <h3>Notes</h3>

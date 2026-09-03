@@ -95,6 +95,7 @@
     "notes": [
       "Temperature confirmed at 350°F by the family member who makes these. It wasn't written on the original recipe.",
       "CHECK: at 350°F, potato chunks usually want 45–60 minutes rather than 20. Something reconciles the two — most likely the pieces are cut smaller or thinner than a standard chunk. Worth asking how big they cut them.",
+      "Supporting that: <a href=\"recipe.html?r=roasted-veggies\">Roasted Veggies</a>, from a completely different source, puts potatoes at 45 minutes — at a hotter 400°F. Two unrelated recipes both landing well past 20 minutes makes the short time the likely error.",
       "Until that's settled, treat the 20 minutes as a first check rather than a finish time — go by a fork going in easily and the edges browning."
     ]
   },
@@ -155,6 +156,293 @@
       "Squeeze harder than feels reasonable. The cucumbers will look wrung out and that's correct.",
       "How the onions are cut wasn't recorded. Thin is the safer default — raw onion goes strong in sour cream if the pieces are big. Write down what you end up liking.",
       "No quantities were recorded."
+    ]
+  },
+  {
+    "slug": "three-ingredient-peanut-butter-cookies",
+    "title": "Three-Ingredient Peanut Butter Cookies",
+    "category": "Dessert",
+    "from": "several recipe sites — the standard three-ingredient version",
+    "time": "10 minutes at 350°F",
+    "serves": "Makes about a dozen",
+    "blurb": "Three ingredients, no flour, and done in about ten minutes.",
+    "ingredients": [
+      "1 cup peanut butter",
+      "1 cup sugar, or coconut sugar",
+      "1 egg"
+    ],
+    "method": [
+      "Heat the oven to 350°F (175°C).",
+      "Mix the peanut butter, sugar and egg together until smooth.",
+      "Roll into balls and space them out on a baking sheet.",
+      "Press a criss-cross pattern into each one with a fork.",
+      "Bake for 10 minutes."
+    ],
+    "notes": [
+      "Coconut sugar works in place of white sugar — both are in the original.",
+      "No flour at all, so these happen to be gluten-free as long as the peanut butter is.",
+      "The fork criss-cross isn't only decoration — it flattens the balls so they bake through evenly in the 10 minutes.",
+      "They come out very soft and firm up as they cool, so don't judge them straight from the oven."
+    ]
+  },
+  {
+    "slug": "plain-white-rice",
+    "title": "Plain White Rice",
+    "category": "Sides",
+    "cuisine": "Dominican",
+    "from": "Dominican family",
+    "time": "About 45 minutes",
+    "ingredients": [
+      "2 cups of rice",
+      "1 tablespoon of salt",
+      "3 tablespoons of oil",
+      "About 3 cups of water"
+    ],
+    "method": [
+      "In a semi-shallow pan on high heat, mix the oil, salt and rice. Mix until the rice is coated with the oil, then add the water.",
+      "Flatten the rice. You have the right amount of water when the tip of the spoon is submerged about one inch, measured from the top of the rice mound. Make sure the spoon is resting on top of the rice, NOT on the bottom of the pan.",
+      "Low to medium heat, and keep an eye on it until the water is gone.",
+      "Mix again, drop the heat to low, and cover with a tight lid.",
+      "After 20 minutes it should be ready to fold — the part that was on top flips to the bottom, and so on.",
+      "Cover again and give it another 10 to 20 minutes. If you want thicker concón, leave it longer."
+    ],
+    "troubleshooting": [
+      "If when you uncover the rice after the first 20 minutes the grains look too closed (uncooked), sprinkle with water, mix, and cover again."
+    ],
+    "variations": [
+      {
+        "name": "Thicker, crunchier concón",
+        "how": "Add the oil to the hot pan, followed by the water. Once the water boils, add the salt and rice. Then proceed with the same steps."
+      },
+      {
+        "name": "Rice and corn, or any other vegetable",
+        "how": "Cook the rice as above. Sauté the vegetables separately with the seasoning you want, then mix with the rice and serve."
+      }
+    ],
+    "notes": [
+      "The spoon test is the whole measurement — the 3 cups of water is approximate and the spoon is what actually tells you.",
+      "The fold at 20 minutes isn't a stir. Top goes to the bottom so both layers get time against the pan."
+    ]
+  },
+  {
+    "slug": "roasted-chicken",
+    "title": "Roasted Chicken",
+    "category": "Dinner",
+    "cuisine": "Dominican",
+    "from": "Dominican family",
+    "time": "An hour and a half at 450°F",
+    "ingredients": [
+      "1 whole chicken",
+      "1 medium head of garlic, peeled",
+      "1 lemon",
+      "3 or 4 rosemary branches",
+      "3 tablespoons of butter",
+      "3 tablespoons of olive oil",
+      "Salt",
+      "Pepper",
+      "A pinch of hot pepper flakes"
+    ],
+    "method": [
+      "In a small blender, mix the garlic, the juice of the lemon (reserve the wedges), rosemary, olive oil, salt, pepper and hot pepper flakes. Blend well.",
+      "Melt the butter and add it to the mixture.",
+      "Clean the chicken, removing the fat around the neck and the bottom.",
+      "Cover the chicken with the sauce, including the empty cavity.",
+      "Place the lemon wedges inside the cavity.",
+      "Roast at 450°F (230°C) for an hour and a half. Turn the chicken once it is golden on top, so the colour and texture come out even. Finish roasting."
+    ],
+    "variations": [
+      {
+        "name": "Chicken pieces instead of a whole bird",
+        "how": "You can do the same with chicken pieces. It takes less time."
+      }
+    ],
+    "notes": [
+      "The pepper flakes here are dried chile de árbol, ground in the blender. Sold at Giant Eagle and Walmart.",
+      "Reserve the lemon wedges when you juice it — they go in the cavity, they aren't a garnish.",
+      "Not from the recipe: chicken sizes vary a lot, so the hour and a half shifts with the bird. The thickest part of the thigh reaching 165°F is the reliable check."
+    ]
+  },
+  {
+    "slug": "dominican-beans",
+    "title": "Dominican Beans",
+    "category": "Sides",
+    "cuisine": "Dominican",
+    "from": "Dominican family",
+    "time": "All day or overnight for the beans, then simmered until creamy",
+    "ingredients": [
+      "Dry beans — red Dominican, pinto, or cranberry. Stay away from kidney beans, they don't make any sauce. About 2 to 3 cups, or the small bag from the grocery store",
+      "1 cubanelle or bell pepper, cut in half, seeds removed",
+      "1 medium onion, cut in half",
+      "8 garlic cloves, mashed (or ¼ cup Dominican sazón)",
+      "1 handful of cilantro — do NOT cut it",
+      "¼ cup of oil",
+      "3 tablespoons of tomato paste",
+      "Salt",
+      "Pepper",
+      "1 small habanero pepper (optional)"
+    ],
+    "method": [
+      "In a slow cooker, rinse and cook the dry beans with double the water — so for 2 cups of beans, 4 cups of water. Cook on slow during the day, or overnight if you are an early riser.",
+      "The beans are ready when you squeeze one and the cream inside comes right out.",
+      "In a deep pan on high heat, mix all the ingredients except the beans. Mix well until the mixture is nice and hot and the tomato paste is mixed in.",
+      "Add the beans with their liquid. Mix well, and add more water if the liquid is too low.",
+      "Let it boil, then drop the heat to medium-low. At this point you can add the habanero whole — it will be easy to remove later.",
+      "Stir occasionally. Taste for salt and pepper. The beans are ready once they are medium thick and creamy.",
+      "Remove all the vegetables before serving."
+    ],
+    "notes": [
+      "The pepper and onion are only halved and the cilantro isn't cut because they all come back out at the end. They're there to flavour the pot, not to be eaten in it.",
+      "The habanero goes in whole for the same reason — it's how you control the heat and still get it out.",
+      "Beans will be creamier if they cook slowly. Rushing the second stage costs you the texture.",
+      "The squeeze test is the real doneness check, not the clock — the cream should come straight out of the bean.",
+      "¼ cup of <a href=\"recipe.html?r=dominican-sazon\">Dominican Sazón</a> stands in for the 8 garlic cloves if you have it."
+    ]
+  },
+  {
+    "slug": "dominican-sazon",
+    "title": "Dominican Sazón",
+    "category": "Basics",
+    "cuisine": "Dominican",
+    "from": "Dominican family",
+    "serves": "A blender full — a decent-sized batch",
+    "blurb": "The seasoning base the other Dominican recipes call for.",
+    "ingredients": [
+      "4 heads of garlic",
+      "3 big red onions",
+      "3 cubanelle peppers",
+      "3 sticks of celery",
+      "1 bunch of cilantro",
+      "4 or 5 green onions",
+      "A handful of freshly ground pepper",
+      "Salt to taste",
+      "The juice of 3 lemons",
+      "4 spoons of olive oil"
+    ],
+    "method": [
+      "Blend everything together."
+    ],
+    "notes": [
+      "This is what <a href=\"recipe.html?r=dominican-beans\">Dominican Beans</a> means by \"¼ cup Dominican sazón\" — ¼ cup of this stands in for the 8 garlic cloves there.",
+      "It needs to be refrigerated.",
+      "A blender full makes a decent-sized batch. The exact yield wasn't recorded — measure it once and write it in here.",
+      "How long it keeps in the fridge wasn't recorded. For a batch this size, freezing part of it in portions is worth considering, but that's my suggestion rather than the recipe."
+    ]
+  },
+  {
+    "slug": "roasted-veggies",
+    "title": "Roasted Veggies",
+    "category": "Sides",
+    "from": "Dominican family",
+    "time": "20 to 45 minutes at 400°F",
+    "ingredients": [
+      "Vegetables of your choice, cut",
+      "Olive oil",
+      "Salt",
+      "Pepper",
+      "Hot pepper flakes"
+    ],
+    "method": [
+      "Spread olive oil on a tray.",
+      "Add the cut vegetables.",
+      "Sprinkle with salt, pepper and hot pepper flakes.",
+      "Roast at 400°F (200°C) until nice and tender — anywhere from 20 to 45 minutes depending on the vegetables. Potatoes, sweet potatoes and the like will be 45 minutes."
+    ],
+    "notes": [
+      "The oil goes on the tray first, then the vegetables on top of it.",
+      "The time range isn't vagueness — it's the whole instruction. Dense root vegetables sit at the 45-minute end, softer ones nearer 20. Judge by tender, not by clock.",
+      "The hot pepper flakes are the same ground dried chile de árbol used in the <a href=\"recipe.html?r=roasted-chicken\">Roasted Chicken</a>."
+    ]
+  },
+  {
+    "slug": "mangu",
+    "title": "Mangú",
+    "category": "Breakfast",
+    "cuisine": "Dominican",
+    "from": "Dominican family",
+    "ingredients": [
+      "Green or yellow plantains",
+      "Salt",
+      "Butter",
+      "Milk"
+    ],
+    "method": [
+      "Peel and cut the plantains, and boil them with salt.",
+      "Watch for the colour change — the plantains turn a dark yellow, and if they're green the water takes on a purple-greyish colour. At this point, add cold water.",
+      "Remove from the heat when they are soft when pinched with a fork.",
+      "Remove almost all the water, leaving about ¼ cup in with the plantains for easy mashing.",
+      "Add butter and milk, and mash until nice and creamy.",
+      "Serve immediately — the mangú will go hard once it cools off."
+    ],
+    "troubleshooting": [
+      "If it has gone hard from cooling, heat it in the microwave, add more fat or cheese, and mash again."
+    ],
+    "notes": [
+      "The cold water goes in at the colour change, not at the start. It's a step in its own right, not topping up the pot.",
+      "The colour is the timer. Dark yellow plantains, or purple-greyish water if you started with green ones.",
+      "Don't drain it dry — the ¼ cup of cooking water left behind is what lets it mash creamy.",
+      "Serve immediately is an instruction, not a suggestion. This one doesn't sit."
+    ]
+  },
+  {
+    "slug": "pie-crust",
+    "title": "Pie Crust",
+    "category": "Basics",
+    "from": "Dominican family",
+    "serves": "Makes 2 crusts",
+    "blurb": "The last pie crust you'll ever need.",
+    "ingredients": [
+      "1½ cups flour",
+      "2 sticks butter",
+      "½ cup flour (separate — for the slurry)",
+      "½ cup water",
+      "2 tsp salt"
+    ],
+    "method": [
+      "Blend the 1½ cups of flour and the 2 sticks of butter together with a pastry blender.",
+      "Separately, mix the ½ cup of flour with the ½ cup of water to make a slurry.",
+      "Add the slurry to the butter and flour, and add the salt.",
+      "Mix together with your hands or a spoon.",
+      "Take it out and knead until it forms a ball.",
+      "Divide in half. Makes 2 crusts."
+    ],
+    "notes": [
+      "The flour is listed twice on purpose. 1½ cups goes into the butter; a separate ½ cup makes the slurry. It isn't a duplication, and combining them would give you a different pastry.",
+      "It rolls easier when refrigerated, but it bakes the same either way.",
+      "Passed along by the same person the Dominican recipes came from, who had it from Mrs. L. The original is titled \"The Last Pie Crust you'll ever need.\""
+    ]
+  },
+  {
+    "slug": "flan-de-leche",
+    "title": "Dominican Flan de Leche",
+    "category": "Dessert",
+    "cuisine": "Dominican",
+    "from": "Dominican family",
+    "time": "2 hours or more in the oven, then 12 to 24 hours in the fridge",
+    "ingredients": [
+      "2 cans of evaporated milk (full fat)",
+      "2 cans of condensed milk (full fat)",
+      "2 tablespoons of regular sugar",
+      "3 eggs",
+      "3 tablespoons of a good golden rum",
+      "For the caramel: 1 cup of sugar",
+      "For the caramel: 1 tablespoon of vanilla"
+    ],
+    "method": [
+      "In a deep small pan over medium heat, heat the sugar and vanilla. Stir occasionally so it won't burn.",
+      "Once the caramel is ready it should look soft and liquid. Pour it into the baking dish, coating the bottom and the sides. Set aside.",
+      "In a blender, mix the rest of the ingredients until smooth — about 2 minutes.",
+      "Pour into the baking dish, the one with the caramel.",
+      "Bake it using the Bain Marie method. Any other method will harden the mix — you will get dulce de leche, not flan.",
+      "Place in the oven at 325°F (160°C) for two hours or more. It's ready when a toothpick comes out clean.",
+      "Let it cool off a little before putting it in the fridge for the next 12 to 24 hours.",
+      "To serve, pass a knife around the edges and put a serving dish on top. Turn it over — it should fall onto the plate."
+    ],
+    "notes": [
+      "The Bain Marie isn't a preference. The recipe is explicit: any other method gives you dulce de leche instead of flan.",
+      "The 12 to 24 hours in the fridge is part of making it, not storage. It needs that time to set before it will turn out.",
+      "Once made, it keeps up to a week before serving.",
+      "Full fat is specified for both the evaporated and the condensed milk.",
+      "The original has photographs for two steps — what the finished caramel should look like, and how the Bain Marie is set up. Those aren't on this page yet."
     ]
   }
 ]

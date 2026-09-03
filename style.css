@@ -215,3 +215,19 @@ header h1 a {
 .blurb {
   margin: 0.75rem 0 0;
 }
+
+/* ---------------------------------------------------------
+   Named variations
+   --------------------------------------------------------- */
+.variations {
+  margin: 0;
+}
+
+.variations dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.variations dd {
+  margin: 0.25rem 0 0;
+}
