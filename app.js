@@ -40,6 +40,20 @@ function metaLine(parts) {
   return parts.filter(Boolean).join(" &middot; ");
 }
 
+/* Ingredients are either a plain list of strings, or groups:
+     [{ group: "Dry", items: [...] }, { items: [...] }]
+   A group without a name just renders its items with no heading, so a
+   recipe can have a few loose ingredients before the named sections. */
+function renderIngredients(ingredients) {
+  if (typeof ingredients[0] === "string") {
+    return `<ul>${ingredients.map(i => `<li>${i}</li>`).join("")}</ul>`;
+  }
+  return ingredients.map(g => `
+    ${g.group ? `<h4>${g.group}</h4>` : ""}
+    <ul>${g.items.map(i => `<li>${i}</li>`).join("")}</ul>
+  `).join("");
+}
+
 /* notes / from may be a single string or a list of them. */
 function toList(value) {
   if (!value) return [];
@@ -146,7 +160,7 @@ function renderOne(recipes) {
              a slide-up sheet behind a button on narrow ones. -->
         <section class="ingredients-col">
           <h3>Ingredients</h3>
-          <ul>${r.ingredients.map(i => `<li>${i}</li>`).join("")}</ul>
+          ${renderIngredients(r.ingredients)}
           <button class="sheet-close" type="button">Done</button>
         </section>
 

@@ -479,3 +479,20 @@ body.sheet-open {
     padding-bottom: 7rem;
   }
 }
+
+/* Sub-headings inside a grouped ingredient list */
+.ingredients-col h4 {
+  margin: 1.4rem 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.ingredients-col h4:first-of-type {
+  margin-top: 1rem;
+}
+
+.ingredients-col ul + h4 {
+  margin-top: 1.25rem;
+}

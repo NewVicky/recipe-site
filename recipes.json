@@ -555,13 +555,22 @@
     "from": "Dominican family",
     "time": "2 hours or more in the oven, then 12 to 24 hours in the fridge",
     "ingredients": [
-      "2 cans of evaporated milk (full fat)",
-      "2 cans of condensed milk (full fat)",
-      "2 tablespoons of regular sugar",
-      "3 eggs",
-      "3 tablespoons of a good golden rum",
-      "For the caramel: 1 cup of sugar",
-      "For the caramel: 1 tablespoon of vanilla"
+      {
+        "items": [
+          "2 cans of evaporated milk (full fat)",
+          "2 cans of condensed milk (full fat)",
+          "2 tablespoons of regular sugar",
+          "3 eggs",
+          "3 tablespoons of a good golden rum"
+        ]
+      },
+      {
+        "group": "For the caramel",
+        "items": [
+          "1 cup of sugar",
+          "1 tablespoon of vanilla"
+        ]
+      }
     ],
     "method": [
       "In a deep small pan over medium heat, heat the sugar and vanilla. Stir occasionally so it won't burn.",
@@ -640,21 +649,31 @@
     "time": "1½ hours for the broth, then 15–20 minutes",
     "blurb": "Also known as Elmer's Glue, because it sticks to your ribs.",
     "ingredients": [
-      "1 whole chicken",
-      "2–3 cloves garlic",
-      "Celery",
-      "Onions",
-      "Carrots",
-      "Soup base",
-      "Salt",
-      "Pepper",
-      "Water — 1 to 2 inches over the chicken",
-      "For the doughballs: 1 stick of margarine",
-      "For the doughballs: 3 cups flour (2¾ may be enough — see notes)",
-      "For the doughballs: 1 tbsp parsley",
-      "For the doughballs: 1 cup chicken broth, from the pot",
-      "For the doughballs: 1 tsp salt",
-      "For the doughballs: soup base — possibly a bouillon cube, see notes"
+      {
+        "group": "For the broth",
+        "items": [
+          "1 whole chicken",
+          "2–3 cloves garlic",
+          "Celery",
+          "Onions",
+          "Carrots",
+          "Soup base",
+          "Salt",
+          "Pepper",
+          "Water — 1 to 2 inches over the chicken"
+        ]
+      },
+      {
+        "group": "For the doughballs",
+        "items": [
+          "1 stick of margarine",
+          "3 cups flour (2¾ may be enough — see notes)",
+          "1 tbsp parsley",
+          "1 cup chicken broth, from the pot",
+          "1 tsp salt",
+          "soup base — possibly a bouillon cube, see notes"
+        ]
+      }
     ],
     "method": [
       "Put the whole chicken in a big pot with the garlic, celery, onions, carrots, soup base, salt and pepper.",
@@ -776,17 +795,27 @@
     "time": "60 to 70 minutes at 350°F, plus an hour cooling",
     "serves": "1 loaf, 9x5 pan",
     "ingredients": [
-      "Wet — 1 cup pumpkin purée",
-      "Wet — ½ cup vegetable oil",
-      "Wet — ½ cup light brown sugar",
-      "Wet — ¼ cup water",
-      "Wet — 2 eggs",
-      "Wet — 1 tsp vanilla",
-      "Dry — 2¼ cups flour",
-      "Dry — ¾ cup granulated sugar",
-      "Dry — 2 tsps baking powder",
-      "Dry — 1½ tsps pumpkin pie spice",
-      "Dry — ½ tsp salt"
+      {
+        "group": "Wet",
+        "items": [
+          "1 cup pumpkin purée",
+          "½ cup vegetable oil",
+          "½ cup light brown sugar",
+          "¼ cup water",
+          "2 eggs",
+          "1 tsp vanilla"
+        ]
+      },
+      {
+        "group": "Dry",
+        "items": [
+          "2¼ cups flour",
+          "¾ cup granulated sugar",
+          "2 tsps baking powder",
+          "1½ tsps pumpkin pie spice",
+          "½ tsp salt"
+        ]
+      }
     ],
     "method": [
       "Preheat the oven to 350°F.",
@@ -807,6 +836,89 @@
       },
       {
         "text": "Found online somewhere — the exact source wasn't recorded.",
+        "src": "you"
+      }
+    ]
+  },
+  {
+    "slug": "apple-fritters",
+    "title": "Apple Fritters",
+    "category": "Dessert",
+    "from": "a cooking show — possibly America's Test Kitchen",
+    "time": "2 to 3 minutes a side, plus 10 minutes for the glaze",
+    "serves": "Makes 10 fritters",
+    "ingredients": [
+      {
+        "items": [
+          "2 apples, cut into ¼ inch pieces and patted dry — do not grate them"
+        ]
+      },
+      {
+        "group": "Dry",
+        "items": [
+          "2 cups flour",
+          "⅓ cup white sugar",
+          "1 tbsp baking powder",
+          "1 tsp salt",
+          "1 tsp cinnamon",
+          "¼ tsp nutmeg"
+        ]
+      },
+      {
+        "group": "Wet",
+        "items": [
+          "2 eggs",
+          "2 tbsp melted butter",
+          "¾ cup apple cider"
+        ]
+      },
+      {
+        "group": "For frying",
+        "items": [
+          "3 cups oil"
+        ]
+      },
+      {
+        "group": "Glaze",
+        "items": [
+          "2 cups powdered sugar",
+          "¼ cup apple cider",
+          "½ tsp cinnamon",
+          "¼ tsp nutmeg"
+        ]
+      }
+    ],
+    "method": [
+      "Cut the apples into ¼ inch pieces — don't grate them — and pat them dry.",
+      "Mix the dry ingredients together.",
+      "Toss the apple pieces through the dry mixture.",
+      "Whisk the wet ingredients together, then combine with the dry until no flour is left.",
+      "In a deep pot, heat 3 cups of oil over medium-high heat.",
+      "Scoop ⅓ cup portions into the oil and press them down. Fry 5 at a time.",
+      "2 to 3 minutes a side.",
+      "Lift out and cool for 5 minutes.",
+      "For the glaze, whisk the powdered sugar, cider, cinnamon and nutmeg together.",
+      "Let the glaze sit on the fritters for 10 minutes before eating."
+    ],
+    "notes": [
+      {
+        "text": "Don't grate the apples — ¼ inch pieces, patted dry. The recipe is emphatic about it.",
+        "src": "recipe"
+      },
+      {
+        "text": "Grated apple releases its water into the batter, which makes the fritters soggy and stops them holding shape. Cut pieces keep their texture.",
+        "src": "claude"
+      },
+      {
+        "text": "The apples get tossed in the dry mixture before the wet goes in, so every piece is floured before it meets the batter.",
+        "src": "recipe"
+      },
+      {
+        "text": "Copied down while watching a cooking show. Which show wasn't recorded — America's Test Kitchen is the best guess.",
+        "src": "you"
+      },
+      {
+        "text": "The unit on the ¾ apple cider wasn't written down. Cup is the reading, and it fits against 2 cups of flour.",
         "src": "you"
       }
     ]
