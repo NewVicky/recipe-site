@@ -653,8 +653,8 @@
       "For the doughballs: 3 cups flour (2¾ may be enough — see notes)",
       "For the doughballs: 1 tbsp parsley",
       "For the doughballs: 1 cup chicken broth, from the pot",
-      "For the doughballs: tsp salt",
-      "For the doughballs: soup base"
+      "For the doughballs: 1 tsp salt",
+      "For the doughballs: soup base — possibly a bouillon cube, see notes"
     ],
     "method": [
       "Put the whole chicken in a big pot with the garlic, celery, onions, carrots, soup base, salt and pepper.",
@@ -688,8 +688,12 @@
         "src": "you"
       },
       {
-        "text": "No quantities were recorded for the salt or the soup base, in the broth or the doughballs.",
-        "src": "recipe"
+        "text": "The card writes \"tsp salt\" with no number — 1 tsp is the best guess rather than a recorded amount, and the soup base has no quantity at all.",
+        "src": "you"
+      },
+      {
+        "text": "The soup base may have been one of those soup cubes rather than a paste or powder, but that isn't certain.",
+        "src": "you"
       }
     ]
   }
