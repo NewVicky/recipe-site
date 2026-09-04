@@ -1113,5 +1113,79 @@
         "src": "claude"
       }
     ]
+  },
+  {
+    "slug": "sacher-torte",
+    "title": "Sacher Torte",
+    "category": "Dessert",
+    "from": "<a href=\"https://www.allrecipes.com/recipe/110312/sacher-torte/\">AllRecipes</a>",
+    "time": "About 45 minutes to bake, plus cooling and assembly",
+    "blurb": "Chocolate cake layered with apricot and finished with a poured chocolate glaze.",
+    "ingredients": [
+      {
+        "group": "Cake",
+        "items": [
+          "4 ounces semisweet chocolate, chopped",
+          "½ cup unsalted butter, softened",
+          "¼ cup plus 2 teaspoons confectioners' sugar",
+          "6 large eggs, separated",
+          "½ cup plus 2 tablespoons white sugar",
+          "1 cup cake flour"
+        ]
+      },
+      {
+        "group": "Filling",
+        "items": [
+          "¼ cup water",
+          "¼ cup white sugar",
+          "3 tablespoons dark rum, divided — 2 tbsp for the syrup, 1 tbsp for the apricot",
+          "1 jar (12 ounce) apricot preserves",
+          "1 tablespoon water"
+        ]
+      },
+      {
+        "group": "Icing",
+        "items": [
+          "9 ounces semisweet chocolate, chopped",
+          "3 ounces heavy cream"
+        ]
+      }
+    ],
+    "method": [
+      "Heat the oven to 350°F. Grease a 9-inch springform pan, line the base with a circle of parchment, and grease the paper too.",
+      "Melt the 4 ounces of chocolate in a double boiler over simmering water, stirring often and scraping the sides so it doesn't scorch — 3 to 5 minutes. Off the heat, let it cool for 5 to 10 minutes.",
+      "Beat the butter with the confectioners' sugar until creamy. Mix in the melted chocolate, then beat in the egg yolks one at a time.",
+      "In a glass bowl, beat the egg whites until foamy. Add the white sugar gradually and keep beating to stiff, glossy peaks.",
+      "Fold the whites into the chocolate mixture, then fold in the cake flour until it's incorporated.",
+      "Pour into the pan, smooth the top, and bake about 45 minutes — the edges pull away from the sides and a toothpick comes out dry.",
+      "Cool in the pan on a wire rack for 15 minutes. Run a small knife around the edge, release the sides, and let it cool completely on the base — another 15 to 20 minutes.",
+      "For the syrup, boil the ¼ cup of water with the ¼ cup of sugar until it's clear, 2 to 3 minutes. Off the heat, stir in 2 tablespoons of the rum.",
+      "For the apricot, blend the preserves with 1 tablespoon of water until smooth. Simmer in a saucepan until thickened, about 2 minutes, then stir in the last tablespoon of rum.",
+      "Take the pan base and parchment off the cooled cake, and slice it horizontally into two layers.",
+      "Set the bottom layer on a wire rack. Brush a third of the syrup over it, spread on a third of the apricot purée, and put the other layer on top.",
+      "Brush the rest of the syrup over the top and sides, then spread the remaining purée over the top and sides. Chill it on the rack while you make the icing.",
+      "For the icing, melt the 9 ounces of chocolate in a double boiler, stirring and scraping, 3 to 5 minutes. Let it cool slightly.",
+      "Bring the cream to a simmer and stir it into the melted chocolate. Let it cool, stirring often, until it's spreadable — 5 to 10 minutes.",
+      "Set the rack over waxed paper to catch drips. Pour the icing over the cake and spread it across the top and sides, letting the excess run through the rack.",
+      "Let the icing come to room temperature, then move the cake to a platter. Serve at room temperature."
+    ],
+    "notes": [
+      {
+        "text": "A special occasion cake rather than an everyday one.",
+        "src": "you"
+      },
+      {
+        "text": "The rum is divided: 2 tablespoons go into the syrup, the last tablespoon into the apricot purée.",
+        "src": "recipe"
+      },
+      {
+        "text": "Both sugars are listed in two parts on the original — ¼ cup plus 2 teaspoons of confectioners', and ½ cup plus 2 tablespoons of white. They're used together, so they're combined here.",
+        "src": "claude"
+      },
+      {
+        "text": "The wire rack sits over waxed paper for the glazing so the excess can run off. Trying to glaze it on a plate won't work.",
+        "src": "recipe"
+      }
+    ]
   }
 ]
