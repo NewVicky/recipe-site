@@ -496,3 +496,14 @@ body.sheet-open {
 .ingredients-col ul + h4 {
   margin-top: 1.25rem;
 }
+
+/* Shown when the method didn't come from the source — a reconstruction. */
+.method-note {
+  margin: 0 0 1rem;
+  padding: 0.6rem 0.85rem;
+  border-left: 3px solid var(--accent);
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-style: italic;
+}

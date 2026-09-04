@@ -166,6 +166,7 @@ function renderOne(recipes) {
 
         <div class="method-col">
           <h3>Method</h3>
+          ${r.methodNote ? `<p class="method-note">${r.methodNote}</p>` : ""}
           <ol>${r.method.map(s => `<li>${s}</li>`).join("")}</ol>
 
           ${trouble.length ? `

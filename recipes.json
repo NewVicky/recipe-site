@@ -961,5 +961,157 @@
         "how": "Add orange juice to the amaretto and sweet & sour."
       }
     ]
+  },
+  {
+    "slug": "russian-tea-cakes",
+    "title": "Russian Tea Cakes",
+    "category": "Dessert",
+    "time": "12 minutes at 350°F",
+    "ingredients": [
+      {
+        "items": [
+          "1 cup butter",
+          "1 tsp vanilla extract",
+          "6 tbsp confectioners sugar",
+          "2 cups all-purpose flour",
+          "1 cup chopped walnuts"
+        ]
+      },
+      {
+        "group": "For rolling",
+        "items": [
+          "⅓ cup confectioners sugar"
+        ]
+      }
+    ],
+    "method": [
+      "Preheat the oven to 350°F.",
+      "Cream the butter and vanilla together.",
+      "Combine the 6 tbsp of confectioners sugar with the flour.",
+      "Stir that into the butter mixture until blended.",
+      "Mix in the walnuts.",
+      "Roll into balls on an ungreased sheet.",
+      "Bake for 12 minutes.",
+      "When cool, roll them in confectioners sugar — maybe twice."
+    ],
+    "notes": [
+      {
+        "text": "The confectioners sugar appears twice for different jobs: 6 tbsp goes into the dough with the flour, and ⅓ cup is for rolling the baked cookies. Not a duplication.",
+        "src": "recipe"
+      },
+      {
+        "text": "\"Maybe twice\" on the final rolling is what the card says — roll them once when cool, then again if they need it.",
+        "src": "recipe"
+      }
+    ]
+  },
+  {
+    "slug": "orange-lemon-cookies",
+    "title": "Orange/Lemon Cookies",
+    "category": "Dessert",
+    "from": "Family",
+    "time": "12 to 15 minutes at 350°F",
+    "ingredients": [
+      {
+        "items": [
+          "1 cup margarine",
+          "2 cups sugar",
+          "2 eggs",
+          "1 cup sour milk — 2 tbsp vinegar plus 1 cup milk",
+          "4 cups flour",
+          "2 tsp baking powder",
+          "1 tsp baking soda",
+          "Juice of 1 orange, plus the rind"
+        ]
+      },
+      {
+        "group": "Icing",
+        "items": [
+          "2 tbsp butter",
+          "1 box confectioners sugar (1 lb)",
+          "Juice of an orange, plus the rind"
+        ]
+      }
+    ],
+    "methodNote": "The card gives the ingredients, the oven temperature, the bake time and the parchment paper — but no mixing steps. The order below is a standard reconstruction, not what was written down.",
+    "method": [
+      "Heat the oven to 350°F and line a sheet with parchment paper.",
+      "Make the sour milk: stir the 2 tbsp of vinegar into the cup of milk.",
+      "Cream the margarine and sugar together, then beat in the eggs.",
+      "Whisk the flour, baking powder and baking soda together separately.",
+      "Add the dry ingredients and the sour milk to the creamed mixture in turns, mixing just until combined.",
+      "Stir in the orange juice and rind.",
+      "Drop spoonfuls onto the lined sheet.",
+      "Bake for 12 to 15 minutes.",
+      "For the icing, melt the butter and mix it into the confectioners sugar, adding orange juice and rind until it spreads. Ice the cookies once they're cool."
+    ],
+    "notes": [
+      {
+        "text": "Sour milk isn't something you buy — 2 tbsp of vinegar stirred into a cup of milk is what the card means.",
+        "src": "recipe"
+      },
+      {
+        "text": "The title offers a choice: the ingredients only name orange, so lemon is presumably the alternative rather than a second citrus.",
+        "src": "claude"
+      },
+      {
+        "text": "The bake temperature, the time and the parchment paper are all from the card. Only the order of mixing is mine.",
+        "src": "claude"
+      },
+      {
+        "text": "The icing is made by melting the butter and mixing it into the sugar, rather than beating in softened butter.",
+        "src": "you"
+      }
+    ]
+  },
+  {
+    "slug": "cheeseburger-soup",
+    "title": "Slow Cooker Cheeseburger Soup",
+    "category": "Dinner",
+    "from": "Dominican family",
+    "time": "4 to 6 hours on low",
+    "serves": "Serves 4",
+    "ingredients": [
+      "1 pound ground beef",
+      "3 garlic cloves, minced",
+      "1 medium onion, diced",
+      "⅓ cup flour",
+      "4 large potatoes, cubed — peeled if you'd rather not eat the peels",
+      "1 cup carrots, diced",
+      "4 cups chicken stock",
+      "1 tablespoon dried parsley",
+      "1 teaspoon fine sea salt, plus more to taste",
+      "½ teaspoon ground black pepper",
+      "½ teaspoon onion powder",
+      "1 cup whole milk",
+      "2 cups shredded cheddar cheese",
+      "Fresh parsley to garnish, optional"
+    ],
+    "method": [
+      "Brown the ground beef in a large skillet, then add the onion and garlic and cook until the onion softens.",
+      "Sprinkle the flour over it and keep cooking and stirring for 3 to 5 minutes, until the flour browns.",
+      "Tip that into the slow cooker, then add the potatoes, carrots, dried parsley, salt, pepper and chicken stock.",
+      "Cook on low for 4 to 6 hours.",
+      "Half an hour before serving, stir in the milk and the cheese and let it warm through. Taste, and add more salt and pepper.",
+      "Garnish with fresh parsley if you like, and serve right away."
+    ],
+    "notes": [
+      {
+        "text": "Originally <a href=\"https://www.theprairiehomestead.com/2015/02/cheeseburger-soup-recipe.html\">Slow Cooker Cheeseburger Soup</a> from The Prairie Homestead, and it came to you through the Dominican family.",
+        "src": "you"
+      },
+      {
+        "text": "The handwritten card in the box has only nine ingredients and no method — it's missing the parsley, salt, pepper and onion powder, and gives no hint that it's a slow cooker recipe at all.",
+        "src": "you"
+      },
+      {
+        "text": "The onion powder is in the ingredient list but never appears in the steps. Adding it with the other seasonings is the obvious place, but the original doesn't say so.",
+        "src": "claude"
+      },
+      {
+        "text": "Browning the flour for 3 to 5 minutes is a real step, not just thickening — it's what stops the soup tasting of raw flour.",
+        "src": "claude"
+      }
+    ]
   }
 ]
