@@ -1002,6 +1002,10 @@
       {
         "text": "\"Maybe twice\" on the final rolling is what the card says — roll them once when cool, then again if they need it.",
         "src": "recipe"
+      },
+      {
+        "text": "Where this one came from isn't known — probably found online somewhere.",
+        "src": "you"
       }
     ]
   },
@@ -1185,6 +1189,115 @@
       {
         "text": "The wire rack sits over waxed paper for the glazing so the excess can run off. Trying to glaze it on a plate won't work.",
         "src": "recipe"
+      }
+    ]
+  },
+  {
+    "slug": "no-bake-chocolate-peanut-butter-oat-bars",
+    "title": "No Bake Chocolate & Peanut Butter Oat Bars",
+    "category": "Dessert",
+    "from": "an email chain, citing <a href=\"https://www.allrecipes.com/recipe/10602/no-bake-chocolate-oat-bars/\">AllRecipes</a>",
+    "time": "30 minutes, plus 2 to 3 hours in the fridge",
+    "serves": "About 12 pieces",
+    "blurb": "No oven — an oat base, a chocolate peanut butter layer, and oats crumbled over the top.",
+    "ingredients": [
+      "1 cup salted butter",
+      "½ cup coconut sugar",
+      "1 teaspoon real vanilla extract",
+      "3 cups quick 1-minute oats",
+      "1 cup semisweet chocolate chips",
+      "½ cup creamy peanut butter — 100% peanuts, no sugar added"
+    ],
+    "method": [
+      "Grease a 9x13 inch casserole dish. A smaller pan — 8x8 or similar — gives you thicker bars.",
+      "Melt the butter in a large saucepan over medium heat. Stir in the coconut sugar and vanilla, then mix in the oats. Cook over low heat for 2 to 3 minutes, until everything is well blended.",
+      "Press half the oat mixture into the bottom of the pan, and keep the other half back for the top.",
+      "In a small heavy saucepan over low heat, melt the chocolate chips and peanut butter together, stirring often until smooth.",
+      "Pour the chocolate mixture over the crust and spread it evenly.",
+      "Crumble the remaining oat mixture over the chocolate and press it in gently.",
+      "Cover and refrigerate for 2 to 3 hours, until the chocolate hardens.",
+      "Bring it back to room temperature before cutting into bars."
+    ],
+    "notes": [
+      {
+        "text": "Reached you by email, having passed through several people before it got to you.",
+        "src": "you"
+      },
+      {
+        "text": "The salted butter is the only salt in the recipe. Unsalted would flatten it.",
+        "src": "claude"
+      },
+      {
+        "text": "100% peanuts with no added sugar matters here rather than being a preference — a sweetened peanut butter would tip the bars over, since the coconut sugar and a cup of chocolate chips are already doing that.",
+        "src": "claude"
+      },
+      {
+        "text": "The same oat mixture does two jobs: half pressed down as the base, half crumbled over the top. Don't cook two batches.",
+        "src": "recipe"
+      },
+      {
+        "text": "Cutting it straight from the fridge will crack the chocolate — that's why it comes back to room temperature first.",
+        "src": "claude"
+      },
+      {
+        "text": "If you want it exactly as the sender makes it, their brands were Kerrygold salted butter, Madhava coconut sugar, McCormick vanilla, Quaker 1-minute oats, Ghirardelli chips and Krema peanut butter — all from Walmart.",
+        "src": "recipe"
+      },
+      {
+        "text": "The email cites an AllRecipes recipe called No-Bake Chocolate Oat Bars, but this version has peanut butter in the title and uses coconut sugar — so it has almost certainly picked up changes along the way. Treat this as the version that was passed to you rather than the original.",
+        "src": "claude"
+      }
+    ]
+  },
+  {
+    "slug": "tart-cranberry-punch",
+    "title": "Tart Cranberry Punch",
+    "category": "Drinks",
+    "from": "an email, for a get-together",
+    "serves": "About 4 gallons",
+    "blurb": "A party-sized punch, with a fruit ice ring to keep it cold.",
+    "ingredients": [
+      {
+        "group": "Punch",
+        "items": [
+          "4 bottles (3 liter) 100% cranberry juice — about 48 cups",
+          "2 bottles (2 liter) 7-Up",
+          "5 cans frozen lemonade, thawed — see notes"
+        ]
+      },
+      {
+        "group": "Ice ring",
+        "items": [
+          "2 to 3 fresh lemons, thinly sliced",
+          "1 small package fresh raspberries",
+          "Fresh mint leaves, optional"
+        ]
+      }
+    ],
+    "method": [
+      "In a large bowl, combine 1 bottle of cranberry juice, 1½ cans of thawed lemonade and 1 liter of 7-Up — half a bottle.",
+      "Stir, and pour into a 1-gallon jug. There'll be some left over.",
+      "Repeat until you have 4 to 4½ gallons of punch.",
+      "For the ice ring, arrange the lemon slices, raspberries and mint in the bottom of an ice ring mold or a bundt pan.",
+      "Add just enough water to submerge about a third of the lemon slices, and freeze for 20 minutes, or until hard.",
+      "Top up with enough water to make a substantial ring, around 4 inches thick, and freeze until hard."
+    ],
+    "notes": [
+      {
+        "text": "Found in an email about a get-together. Where it came from before that isn't known.",
+        "src": "you"
+      },
+      {
+        "text": "CHECK: the numbers don't quite divide. Each gallon takes 1½ cans of lemonade, so four gallons needs 6 cans — but the ingredient list says 5. Either buy 6, or the per-batch amount is meant to be lower. Worth settling before shopping for a party.",
+        "src": "claude"
+      },
+      {
+        "text": "The ice ring freezes in two stages on purpose. A shallow layer first anchors the fruit in place; add all the water at once and the lemon and raspberries float to the top.",
+        "src": "claude"
+      },
+      {
+        "text": "An ice ring rather than cubes because it melts far more slowly, so the punch stays cold without watering down as fast.",
+        "src": "claude"
       }
     ]
   }
