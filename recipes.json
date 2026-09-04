@@ -1300,5 +1300,62 @@
         "src": "claude"
       }
     ]
+  },
+  {
+    "slug": "almond-flour-cocoa-bread",
+    "title": "Almond Flour Cocoa Bread",
+    "category": "Breakfast",
+    "from": "<a href=\"https://thecoconutmama.com/almond-flour-cocoa-bread/\">The Coconut Mama</a>",
+    "time": "55 minutes to an hour at 350°F",
+    "serves": "1 loaf",
+    "ingredients": [
+      "1¼ cups apple sauce, pumpkin purée, or mashed banana",
+      "3 eggs",
+      "¼ cup pure maple syrup",
+      "¼ cup brown sugar or coconut sugar",
+      "1 teaspoon vanilla extract",
+      "2½ cups blanched almond flour",
+      "½ cup unsweetened cocoa powder",
+      "1 teaspoon baking soda",
+      "½ teaspoon salt",
+      "½ cup dark chocolate chips, plus extra for the top"
+    ],
+    "method": [
+      "Heat the oven to 350°F. Spray a loaf pan with cooking spray, or line it with parchment, and set it aside.",
+      "In a large bowl, mash the bananas — or use apple sauce or pumpkin purée. Add the eggs, maple syrup, brown or coconut sugar, and vanilla, and whisk until smooth and well combined.",
+      "Add the almond flour, cocoa powder, baking soda and salt to the same bowl. With a wooden spoon or spatula, gently fold everything together until just combined.",
+      "Fold in ½ cup of the chocolate chips, spread evenly through the batter.",
+      "Pour into the pan and smooth the top with a spatula.",
+      "Scatter the remaining chocolate chips over the top.",
+      "Bake for 55 minutes to an hour, until a toothpick comes out mostly clean from the center.",
+      "Let it cool for 10 minutes before removing, then transfer to a wire rack to cool completely.",
+      "Cut and serve."
+    ],
+    "notes": [
+      {
+        "text": "Passed on by someone you stayed with. Not made yet — it's here so it doesn't get lost in an inbox.",
+        "src": "you"
+      },
+      {
+        "text": "The sugar is missing from the recipe card's steps, but the article body puts it in with the eggs, maple syrup and vanilla. That's where it goes.",
+        "src": "recipe"
+      },
+      {
+        "text": "The card says \"mix well\" for the dry ingredients; the article says gently fold until just combined. The gentler instruction is the one to follow — almond flour has no gluten to develop, but overworking still knocks the air out.",
+        "src": "recipe"
+      },
+      {
+        "text": "It's a one-bowl recipe. The dry ingredients go into the same bowl as the wet, so don't set up a second one.",
+        "src": "recipe"
+      },
+      {
+        "text": "A toothpick coming out \"mostly clean\" is what the recipe asks for, not clean. Almond flour loaves stay moist, and baking until a toothpick is dry will overcook it.",
+        "src": "claude"
+      },
+      {
+        "text": "The 1¼ cups is a choice of three — apple sauce, pumpkin, or mashed banana. They'll all work, but the loaf tastes noticeably different depending on which.",
+        "src": "claude"
+      }
+    ]
   }
 ]
