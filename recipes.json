@@ -921,5 +921,45 @@
         "src": "you"
       }
     ]
+  },
+  {
+    "slug": "amaretto-sour",
+    "title": "Amaretto Sour",
+    "category": "Drinks",
+    "from": "a roommate's mom",
+    "serves": "Makes 1",
+    "ingredients": [
+      "1.5 oz amaretto",
+      "3 oz sweet & sour"
+    ],
+    "method": [
+      "Combine the amaretto and sweet & sour.",
+      "Shake vigorously to aerate it — the foam enhances the flavor.",
+      "Serve over ice."
+    ],
+    "notes": [
+      {
+        "text": "The vigorous shake isn't optional. The foam it produces is part of the drink, not just how it looks.",
+        "src": "recipe"
+      },
+      {
+        "text": "It's 1 part amaretto to 2 parts sweet & sour, so it scales straight up for a pitcher.",
+        "src": "claude"
+      },
+      {
+        "text": "A sour with orange juice in it is called a stone sour, so the amaretto stone sour name is the real one.",
+        "src": "claude"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Blended instead of shaken",
+        "how": "Put it in a blender rather than shaking. It aerates far more than a shaker can, and you get a lot more foam."
+      },
+      {
+        "name": "Amaretto Stone Sour",
+        "how": "Add orange juice to the amaretto and sweet & sour."
+      }
+    ]
   }
 ]
