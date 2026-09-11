@@ -556,19 +556,20 @@
     "time": "2 hours or more in the oven, then 12 to 24 hours in the fridge",
     "ingredients": [
       {
+        "group": "For the caramel",
+        "items": [
+          "1 cup of sugar",
+          "1 tablespoon of vanilla"
+        ]
+      },
+      {
+        "group": "For the flan",
         "items": [
           "2 cans of evaporated milk (full fat)",
           "2 cans of condensed milk (full fat)",
           "2 tablespoons of regular sugar",
           "3 eggs",
           "3 tablespoons of a good golden rum"
-        ]
-      },
-      {
-        "group": "For the caramel",
-        "items": [
-          "1 cup of sugar",
-          "1 tablespoon of vanilla"
         ]
       }
     ],
