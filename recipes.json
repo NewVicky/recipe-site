@@ -1358,5 +1358,76 @@
         "src": "claude"
       }
     ]
+  },
+  {
+    "slug": "garlic-butter-steak-bites",
+    "title": "Garlic Butter Steak Bites",
+    "category": "Dinner",
+    "from": "an AI chat, planning for Friendsgiving",
+    "time": "About 30 minutes, searing in 3 or 4 batches",
+    "serves": "About 20 at a potluck — 100 to 120 bites",
+    "blurb": "Steak cubes seared hard and tossed in garlic butter, kept warm in a slow cooker and eaten off toothpicks.",
+    "ingredients": [
+      "6 lbs flank steak, or top sirloin as an alternative — bought whole and cubed yourself",
+      "About 4 tablespoons high-smoke-point oil (avocado or olive), plus a splash between batches",
+      "Kosher salt, generously",
+      "Cracked black pepper",
+      "1 teaspoon garlic powder",
+      "¾ cup (1½ sticks) salted butter — have up to 2 sticks on hand",
+      "12 to 15 cloves fresh garlic (about 2 heads), minced",
+      "1 bunch fresh Italian flat-leaf parsley, finely chopped",
+      "To serve: a slow cooker and a pack of sturdy toothpicks"
+    ],
+    "method": [
+      "Pat the steaks completely dry with paper towels — dry meat browns, wet meat steams.",
+      "Cut the steak into even 1-inch cubes.",
+      "In a large bowl, toss the cubes with 2 tablespoons of oil, a generous amount of kosher salt, black pepper, and the garlic powder.",
+      "Heat the dry steel pan over high heat for 2 to 3 minutes. Flick in a few drops of water: if they sizzle and evaporate, it isn't hot enough yet. When they bead into a ball and glide across the pan, it's ready.",
+      "Add a tablespoon of oil, swirl, and immediately add a single layer of steak cubes with room between them. Don't let the oil sit in the empty pan or it will smoke.",
+      "Sear undisturbed for 2 minutes. The cubes will stick at first and release on their own once the crust forms — if they're still stuck, give them another 20 seconds rather than scraping. Flip and cook 1 more minute, then move them to a plate. They should still be a little pink in the middle.",
+      "Wipe out any burnt bits, add a splash of oil, and repeat until every batch is seared.",
+      "Turn the heat down to medium-low and melt the butter in the pan, scraping up the browned bits from the bottom with a wooden spoon as it melts.",
+      "Add the minced garlic and cook for 45 to 60 seconds, stirring constantly. Don't let it brown or it turns bitter.",
+      "Tip all the steak and its plate juices back into the pan and toss for 1 minute, until every piece is glazed.",
+      "Turn off the heat and scatter a big handful of parsley over the top.",
+      "To keep them warm for the potluck: before you start cooking, pour half a cup of warm water into the slow cooker, put the lid on and set it to Warm. Pour the water out, then pour in the steak and all the garlic butter.",
+      "At the party, keep it on Warm — not Low or High — with the lid off or cracked, and a bowl of toothpicks beside it."
+    ],
+    "variations": [
+      {
+        "name": "Cooking it a few hours ahead",
+        "how": "Under-sear: 1½ minutes on the first side and only 30 seconds on the second, so they're browned outside but still rare in the middle. Make the garlic butter and toss as usual — the butter keeps them from drying out. Put everything in the slow cooker liner with the lid on but unplugged, then plug it in on Warm 20 to 30 minutes before people eat. It finishes cooking them to medium-rare or medium."
+      },
+      {
+        "name": "Prepping the night before",
+        "how": "Cube the steak and keep it in a sealed bag or container in the fridge — don't salt it yet. Mince the garlic and keep it sealed. Wash, dry thoroughly, and chop the parsley. On the day, season the meat and sear."
+      }
+    ],
+    "notes": [
+      {
+        "text": "Made it for Friendsgiving, about 20 people, cooked on the day. Used flank steak because there was no top sirloin to be found. Got good comments. Next time, think about adding more salt and pepper while it cooks.",
+        "src": "you"
+      },
+      {
+        "text": "Avoid packages labelled \"stew meat\" — those are tough cuts meant for slow braising and won't be tender after a quick sear.",
+        "src": "recipe"
+      },
+      {
+        "text": "Six pounds won't fit in one pan. Crowding it makes the meat steam instead of sear, which is why it's done in 3 or 4 batches.",
+        "src": "recipe"
+      },
+      {
+        "text": "Flank has long, obvious muscle fibres. Cut it into strips across the grain first, then into cubes, so each bite has short fibres and isn't chewy.",
+        "src": "claude"
+      },
+      {
+        "text": "On the make-ahead version: cooked meat shouldn't sit between 40°F and 140°F for more than about 2 hours in total. If the gap between cooking and the slow cooker getting hot is longer than an hour or so, keep it plugged in on Warm the whole time, or refrigerate it and reheat on Warm.",
+        "src": "claude"
+      },
+      {
+        "text": "The slow cooker keeps cooking the steak the longer it sits, so the bites will drift past medium over a long party. That's what the under-sear in the make-ahead version is making room for.",
+        "src": "claude"
+      }
+    ]
   }
 ]
