@@ -99,20 +99,20 @@
     "category": "Dinner",
     "from": "Family",
     "ingredients": [
-      "1 box of pasta — normally angel hair",
+      "Tomato soup — enough to fill the pot",
+      "American cheese, or Velveeta — about half a block of Velveeta, melted in",
       "Ground beef — typically 1 lb",
-      "1 egg — the only binder, no breadcrumbs",
-      "Celery salt, or celery seed",
+      "1 egg",
       "Salt",
       "Pepper",
-      "Tomato soup — enough to fill the pot, made up as normal soup (if condensed, add water per the can)",
-      "American cheese, or Velveeta — about half a block of Velveeta, melted in"
+      "Celery salt, or celery seed",
+      "1 box of pasta — normally angel hair"
     ],
     "method": [
       "In a pot, make up the tomato soup as normal soup — if it's condensed, add the water the can calls for. Melt the American cheese or Velveeta into it.",
-      "Mix the ground beef with the egg, salt, pepper and celery salt or celery seed. No breadcrumbs.",
+      "Mix the ground beef with the egg, salt, pepper and celery salt or celery seed.",
       "Roll into meatballs.",
-      "Drop the raw meatballs into the soup and cheese mixture and cook them in it.",
+      "Drop the raw meatballs into the soup and cheese mixture and cook them in it until they're cooked through.",
       "Boil the pasta.",
       "Serve the meatballs and sauce over the pasta."
     ],
@@ -126,19 +126,15 @@
         "src": "you"
       },
       {
-        "text": "Quantities are by feel rather than measured. What typically gets used: a pound of ground beef, enough soup to fill the pot, and around half a block of Velveeta melted in.",
+        "text": "Quantities are by feel rather than measured — the amounts in the ingredients are what typically gets used.",
         "src": "you"
       },
       {
-        "text": "The pasta isn't named in the original — it's normally angel hair, a whole box.",
+        "text": "The original doesn't name the pasta — angel hair is what normally gets used.",
         "src": "you"
       },
       {
         "text": "This is the tomato-soup-and-melted-cheese style rather than an Italian red sauce. Worth saying so it doesn't get 'corrected' into marinara.",
-        "src": "claude"
-      },
-      {
-        "text": "Cooking the meatballs in the sauce means the sauce takes on flavor from the beef.",
         "src": "claude"
       },
       {
